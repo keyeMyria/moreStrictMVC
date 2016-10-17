@@ -18,6 +18,8 @@
 		1C6876651DB50EBE003B180B /* KMBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6876641DB50EBE003B180B /* KMBaseTableView.m */; };
 		1C68766A1DB512C7003B180B /* UIViewController+Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6876691DB512C7003B180B /* UIViewController+Table.m */; };
 		1C6876711DB51AFB003B180B /* KMMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6876701DB51AFB003B180B /* KMMainModel.m */; };
+		1C6876741DB52438003B180B /* KMHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6876731DB52438003B180B /* KMHomeVC.m */; };
+		1C6876791DB52468003B180B /* KMMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6876781DB52468003B180B /* KMMeVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,10 @@
 		1C6876691DB512C7003B180B /* UIViewController+Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Table.m"; sourceTree = "<group>"; };
 		1C68766F1DB51AFB003B180B /* KMMainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMMainModel.h; sourceTree = "<group>"; };
 		1C6876701DB51AFB003B180B /* KMMainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMMainModel.m; sourceTree = "<group>"; };
+		1C6876721DB52438003B180B /* KMHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMHomeVC.h; sourceTree = "<group>"; };
+		1C6876731DB52438003B180B /* KMHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMHomeVC.m; sourceTree = "<group>"; };
+		1C6876771DB52468003B180B /* KMMeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMMeVC.h; sourceTree = "<group>"; };
+		1C6876781DB52468003B180B /* KMMeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMMeVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +171,10 @@
 		1C6876551DB50C93003B180B /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				1C6876721DB52438003B180B /* KMHomeVC.h */,
+				1C6876731DB52438003B180B /* KMHomeVC.m */,
+				1C6876751DB52443003B180B /* Models */,
+				1C6876761DB52443003B180B /* Views */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -183,6 +193,8 @@
 		1C6876571DB50C93003B180B /* Me */ = {
 			isa = PBXGroup;
 			children = (
+				1C6876771DB52468003B180B /* KMMeVC.h */,
+				1C6876781DB52468003B180B /* KMMeVC.m */,
 				1C68766B1DB51AA9003B180B /* Models */,
 				1C68766C1DB51AA9003B180B /* Views */,
 			);
@@ -265,6 +277,20 @@
 			sourceTree = "<group>";
 		};
 		1C68766E1DB51AB0003B180B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C6876751DB52443003B180B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C6876761DB52443003B180B /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -409,10 +435,12 @@
 				1C6876261DB509BE003B180B /* AppDelegate.m in Sources */,
 				1C68766A1DB512C7003B180B /* UIViewController+Table.m in Sources */,
 				1C6876711DB51AFB003B180B /* KMMainModel.m in Sources */,
+				1C6876791DB52468003B180B /* KMMeVC.m in Sources */,
 				1C6876621DB50E2B003B180B /* KMBaseVC.m in Sources */,
 				1C6876231DB509BE003B180B /* main.m in Sources */,
 				1C68765B1DB50CBB003B180B /* KMMainVC.m in Sources */,
 				1C6876651DB50EBE003B180B /* KMBaseTableView.m in Sources */,
+				1C6876741DB52438003B180B /* KMHomeVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
