@@ -8,7 +8,13 @@
 
 #import "AppDelegate.h"
 
+
+
+
+
 @interface AppDelegate ()
+
+@property (nonatomic, strong) KMMainVC *mainVC;
 
 @end
 
@@ -16,7 +22,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    _mainVC = [[KMMainVC alloc] init];
+    self.window.rootViewController =_mainVC;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

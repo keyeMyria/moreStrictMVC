@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  KMMainVC.h
 //  MoreStrictMVC
 //
 //  Created by Keye Myria on 10/17/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface KMMainVC : UITabBarController
 
 @end
-
