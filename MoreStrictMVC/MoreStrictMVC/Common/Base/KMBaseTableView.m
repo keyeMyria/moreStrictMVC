@@ -8,6 +8,8 @@
 
 #import "KMBaseTableView.h"
 
+#import <MJRefresh/MJRefresh.h>
+
 
 @interface KMBaseTableView ()
 
@@ -32,10 +34,55 @@
 
 - (void)configureTable {
     
-    
     self.delegate = self;
     
+}
+
+
+#pragma mark getter/setter
+- (void)setNeedRefreshHeader:(BOOL)needRefreshHeader {
+    _needRefreshHeader = needRefreshHeader;
+    if (_needRefreshHeader) {
+        self.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(refreshHeaderAction)];
+    } else {
+        if (self.mj_header) {
+            [self.mj_header removeFromSuperview];
+        }
+    }
+}
+
+- (void)setNeedRefreshFooter:(BOOL)needRefreshFooter {
+    _needRefreshFooter = needRefreshFooter;
+    if (_needRefreshFooter) {
+        self.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(refreshFooterAction)];
+    } else {
+        if (self.mj_footer) {
+            [self.mj_footer removeFromSuperview];
+        }
+    }
+}
+
+- (void)refreshHeaderAction {
     
+}
+
+- (void)refreshFooterAction {
+    
+}
+
+
+- (void)beginRefreshing {
+    if (self.mj_header) {
+        [self.mj_header beginRefreshing];
+    }
+}
+- (void)endRefreshing {
+    if (self.mj_header) {
+        [self.mj_header endRefreshing];
+    }
+    if (self.mj_footer) {
+        [self.mj_footer endRefreshing];
+    }
 }
 
 - (void)buttonInCellAction:(id)sender {

@@ -15,6 +15,8 @@
 
 @optional
 
+- (void)baseTableView:(KMBaseTableView *)tableView triggerPage:(NSInteger)page;
+
 - (void)baseTableView:(KMBaseTableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 
 - (void)baseTableView:(KMBaseTableView *)tableView cellButton:(UIButton*)button atIndexPath:(NSIndexPath *)indexPath;

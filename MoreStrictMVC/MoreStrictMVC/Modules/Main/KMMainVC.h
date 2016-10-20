@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KMMainVC : UITabBarController
+@interface KMMainVC : UITabBarController<UITabBarDelegate, UITabBarControllerDelegate>
 
 @end

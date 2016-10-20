@@ -10,12 +10,17 @@
 
 @interface KMHomeVC ()
 
+
+
 @end
 
 @implementation KMHomeVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = @"Home";
+    self.view.backgroundColor = [UIColor redColor];
     
 }
 

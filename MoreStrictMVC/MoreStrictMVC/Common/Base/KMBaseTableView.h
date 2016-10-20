@@ -18,13 +18,20 @@
 
 
 @property (nonatomic, assign, readonly) NSInteger pageNo;
-
 @property (nonatomic, weak) id<KMBaseTableViewDelegate> baseDelegate;
+
+@property (nonatomic, assign) BOOL needRefreshHeader;
+@property (nonatomic, assign) BOOL needRefreshFooter;
+
+
 
 - (void)buttonInCellAction:(id)sender;
 
 - (void)buttonInSectionHeaderViewAction:(id)sender;
 - (void)buttonInSectionFooterViewAction:(id)sender;
+
+- (void)beginRefreshing;
+- (void)endRefreshing;
 
 @end
 
