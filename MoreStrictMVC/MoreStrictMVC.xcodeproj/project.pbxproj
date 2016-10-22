@@ -20,6 +20,8 @@
 		1C6876711DB51AFB003B180B /* KMMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6876701DB51AFB003B180B /* KMMainModel.m */; };
 		1C6876741DB52438003B180B /* KMHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6876731DB52438003B180B /* KMHomeVC.m */; };
 		1C6876791DB52468003B180B /* KMMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6876781DB52468003B180B /* KMMeVC.m */; };
+		1C6BF14A1DBAF7BC00DB1700 /* KMNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1491DBAF7BC00DB1700 /* KMNetworkManager.m */; };
+		A1E912B98C574C274A63EE63 /* libPods-MoreStrictMVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3086E0822A54BD9425DEB9 /* libPods-MoreStrictMVC.a */; };
 		CA4C208F481806A2901422FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD64B29C51519A945423412 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -41,10 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C40B9781DB7A78E00EE9CAD /* 517994E1-0E2C-3059-966C-51C08EB31763.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "517994E1-0E2C-3059-966C-51C08EB31763.bcsymbolmap"; sourceTree = "<group>"; };
-		1C40B9791DB7A78E00EE9CAD /* CE410108-084C-375D-90A7-2DBCDDED233E.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CE410108-084C-375D-90A7-2DBCDDED233E.bcsymbolmap"; sourceTree = "<group>"; };
-		1C40B97A1DB7A78E00EE9CAD /* MJExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MJExtension.framework; sourceTree = "<group>"; };
-		1C40B97B1DB7A78E00EE9CAD /* MJExtension.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = MJExtension.framework.dSYM; sourceTree = "<group>"; };
 		1C68761E1DB509BE003B180B /* MoreStrictMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoreStrictMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6876221DB509BE003B180B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C6876241DB509BE003B180B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,9 +71,14 @@
 		1C6876731DB52438003B180B /* KMHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMHomeVC.m; sourceTree = "<group>"; };
 		1C6876771DB52468003B180B /* KMMeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMMeVC.h; sourceTree = "<group>"; };
 		1C6876781DB52468003B180B /* KMMeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMMeVC.m; sourceTree = "<group>"; };
+		1C6BF1421DBAED5B00DB1700 /* OSCAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCAPI.h; sourceTree = "<group>"; };
+		1C6BF1431DBAED5B00DB1700 /* TeamAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamAPI.h; sourceTree = "<group>"; };
+		1C6BF1481DBAF7BC00DB1700 /* KMNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMNetworkManager.h; sourceTree = "<group>"; };
+		1C6BF1491DBAF7BC00DB1700 /* KMNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMNetworkManager.m; sourceTree = "<group>"; };
 		3AC0C967BEB4BC346284E8B3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5C33F800D1EDB6CF099907E2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CCD64B29C51519A945423412 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3086E0822A54BD9425DEB9 /* libPods-MoreStrictMVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoreStrictMVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA4C208F481806A2901422FE /* libPods.a in Frameworks */,
+				A1E912B98C574C274A63EE63 /* libPods-MoreStrictMVC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,22 +111,10 @@
 		1C40B9761DB7A78E00EE9CAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1C40B9771DB7A78E00EE9CAD /* iOS */,
 				CCD64B29C51519A945423412 /* libPods.a */,
+				DB3086E0822A54BD9425DEB9 /* libPods-MoreStrictMVC.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1C40B9771DB7A78E00EE9CAD /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				1C40B9781DB7A78E00EE9CAD /* 517994E1-0E2C-3059-966C-51C08EB31763.bcsymbolmap */,
-				1C40B9791DB7A78E00EE9CAD /* CE410108-084C-375D-90A7-2DBCDDED233E.bcsymbolmap */,
-				1C40B97A1DB7A78E00EE9CAD /* MJExtension.framework */,
-				1C40B97B1DB7A78E00EE9CAD /* MJExtension.framework.dSYM */,
-			);
-			name = iOS;
-			path = Carthage/Build/iOS;
 			sourceTree = "<group>";
 		};
 		1C6876151DB509BE003B180B = {
@@ -245,6 +237,7 @@
 		1C68765C1DB50E09003B180B /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				1C6BF1441DBAF04A00DB1700 /* Networking */,
 				1C68765D1DB50E09003B180B /* Base */,
 				1C68765E1DB50E09003B180B /* Category */,
 			);
@@ -274,6 +267,7 @@
 		1C68765F1DB50E09003B180B /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				1C6BF1411DBAED5B00DB1700 /* oschina */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -327,6 +321,32 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		1C6BF1411DBAED5B00DB1700 /* oschina */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF1421DBAED5B00DB1700 /* OSCAPI.h */,
+				1C6BF1431DBAED5B00DB1700 /* TeamAPI.h */,
+			);
+			path = oschina;
+			sourceTree = "<group>";
+		};
+		1C6BF1441DBAF04A00DB1700 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF1451DBAF04A00DB1700 /* http */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1C6BF1451DBAF04A00DB1700 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF1481DBAF7BC00DB1700 /* KMNetworkManager.h */,
+				1C6BF1491DBAF7BC00DB1700 /* KMNetworkManager.m */,
+			);
+			path = http;
 			sourceTree = "<group>";
 		};
 		87916AB97B5B04124F569DB5 /* Pods */ = {
@@ -403,6 +423,7 @@
 		1C6876161DB509BE003B180B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KM;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Keye Myria";
 				TargetAttributes = {
@@ -499,7 +520,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoreStrictMVC/Pods-MoreStrictMVC-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AF1B3A4A85191E3B6C827295 /* Embed Pods Frameworks */ = {
@@ -514,7 +535,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoreStrictMVC/Pods-MoreStrictMVC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -524,6 +545,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C6BF14A1DBAF7BC00DB1700 /* KMNetworkManager.m in Sources */,
 				1C6876261DB509BE003B180B /* AppDelegate.m in Sources */,
 				1C68766A1DB512C7003B180B /* UIViewController+Table.m in Sources */,
 				1C6876711DB51AFB003B180B /* KMMainModel.m in Sources */,

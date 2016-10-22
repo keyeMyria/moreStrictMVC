@@ -13,7 +13,7 @@
 
 @interface KMBaseTableView ()
 
-@property (nonatomic, assign) NSInteger pageNo;
+@property (nonatomic, assign) NSInteger currentPage;
 
 
 
@@ -33,11 +33,28 @@
 
 
 - (void)configureTable {
+    self.currentPage = 1;
+    self.tableData = [NSMutableArray array];
     
     self.delegate = self;
     
+    
 }
 
+- (void)freshTableWith:(NSArray*)data atPage:(NSInteger)pageNo {
+    self.currentPage = pageNo;
+    if (pageNo == 1) {
+        [self.tableData removeAllObjects];
+        [self.tableData addObjectsFromArray:data];
+    } else {
+        [self.tableData addObjectsFromArray:data];
+    }
+    [self endRefreshing];
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self reloadData];
+    });
+}
 
 #pragma mark getter/setter
 - (void)setNeedRefreshHeader:(BOOL)needRefreshHeader {
@@ -63,11 +80,16 @@
 }
 
 - (void)refreshHeaderAction {
-    
+    if (self.baseDelegate && [self.baseDelegate respondsToSelector:@selector(baseTableView:triggerPage:)]) {
+        [self.baseDelegate baseTableView:self triggerPage:1];
+    }
 }
 
 - (void)refreshFooterAction {
     
+    if (self.baseDelegate && [self.baseDelegate respondsToSelector:@selector(baseTableView:triggerPage:)]) {
+        [self .baseDelegate baseTableView:self triggerPage:self.currentPage+1];
+    }
 }
 
 

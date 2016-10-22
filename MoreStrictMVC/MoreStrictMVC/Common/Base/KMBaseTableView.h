@@ -16,14 +16,16 @@
 
 @interface KMBaseTableView : UITableView<UITableViewDelegate, UITableViewDataSource>
 
+@property (nonatomic, strong) NSMutableArray *tableData;
 
-@property (nonatomic, assign, readonly) NSInteger pageNo;
+@property (nonatomic, assign, readonly) NSInteger currentPage;
 @property (nonatomic, weak) id<KMBaseTableViewDelegate> baseDelegate;
 
 @property (nonatomic, assign) BOOL needRefreshHeader;
 @property (nonatomic, assign) BOOL needRefreshFooter;
 
 
+- (void)freshTableWith:(NSArray*)data atPage:(NSInteger)pageNo;
 
 - (void)buttonInCellAction:(id)sender;
 
