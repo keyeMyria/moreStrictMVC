@@ -48,6 +48,9 @@
     
     self.contentView.backgroundColor = [UIColor titleBarColor];
     self.selectedTextColor = [UIColor newSectionButtonSelectedColor];
+    self.normalTextColor = [UIColor colorWithHex:0x909090];
+    
+    self.collectionViewBarColor = [UIColor titleBarColor];
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch
                                                                                                      target:self

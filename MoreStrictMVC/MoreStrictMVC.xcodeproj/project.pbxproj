@@ -30,6 +30,8 @@
 		1C6BF16F1DBB391E00DB1700 /* KMQuestionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF16E1DBB391E00DB1700 /* KMQuestionVC.m */; };
 		1C6BF1741DBB3B2900DB1700 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1731DBB3B2900DB1700 /* UIColor+Util.m */; };
 		1C6BF1781DBB3C0F00DB1700 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1771DBB3C0F00DB1700 /* UIView+Util.m */; };
+		1C6BF17C1DBB451F00DB1700 /* KMTweetsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF17B1DBB451F00DB1700 /* KMTweetsVC.m */; };
+		1C6BF17F1DBB477A00DB1700 /* KMTweetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF17E1DBB477A00DB1700 /* KMTweetVC.m */; };
 		9B87A5D3F5C08D608660ABC5 /* libPods-MoreStrictMVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E378F90FBCE356B31FEF00 /* libPods-MoreStrictMVC.a */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +105,10 @@
 		1C6BF1731DBB3B2900DB1700 /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
 		1C6BF1761DBB3C0F00DB1700 /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
 		1C6BF1771DBB3C0F00DB1700 /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
+		1C6BF17A1DBB451F00DB1700 /* KMTweetsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMTweetsVC.h; sourceTree = "<group>"; };
+		1C6BF17B1DBB451F00DB1700 /* KMTweetsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTweetsVC.m; sourceTree = "<group>"; };
+		1C6BF17D1DBB477A00DB1700 /* KMTweetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMTweetVC.h; sourceTree = "<group>"; };
+		1C6BF17E1DBB477A00DB1700 /* KMTweetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTweetVC.m; sourceTree = "<group>"; };
 		54E378F90FBCE356B31FEF00 /* libPods-MoreStrictMVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoreStrictMVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A250226D50B763D2559DD5CE /* Pods-MoreStrictMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreStrictMVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoreStrictMVC/Pods-MoreStrictMVC.release.xcconfig"; sourceTree = "<group>"; };
 		AE1FE4DDF5C2E3F48719773D /* Pods-MoreStrictMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreStrictMVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoreStrictMVC/Pods-MoreStrictMVC.debug.xcconfig"; sourceTree = "<group>"; };
@@ -202,10 +208,10 @@
 		1C6876541DB50C20003B180B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				1C6BF1791DBB44E100DB1700 /* Tweets */,
 				1C6876551DB50C93003B180B /* Home */,
 				1C6876561DB50C93003B180B /* Main */,
 				1C6876571DB50C93003B180B /* Me */,
-				1C6876581DB50C93003B180B /* Tools */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -244,15 +250,6 @@
 				1C68766C1DB51AA9003B180B /* Views */,
 			);
 			path = Me;
-			sourceTree = "<group>";
-		};
-		1C6876581DB50C93003B180B /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				1C68766D1DB51AB0003B180B /* Models */,
-				1C68766E1DB51AB0003B180B /* Views */,
-			);
-			path = Tools;
 			sourceTree = "<group>";
 		};
 		1C68765C1DB50E09003B180B /* Common */ = {
@@ -313,20 +310,6 @@
 			sourceTree = "<group>";
 		};
 		1C68766C1DB51AA9003B180B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		1C68766D1DB51AB0003B180B /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		1C68766E1DB51AB0003B180B /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -480,6 +463,17 @@
 				1C6BF1771DBB3C0F00DB1700 /* UIView+Util.m */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		1C6BF1791DBB44E100DB1700 /* Tweets */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF17A1DBB451F00DB1700 /* KMTweetsVC.h */,
+				1C6BF17B1DBB451F00DB1700 /* KMTweetsVC.m */,
+				1C6BF17D1DBB477A00DB1700 /* KMTweetVC.h */,
+				1C6BF17E1DBB477A00DB1700 /* KMTweetVC.m */,
+			);
+			path = Tweets;
 			sourceTree = "<group>";
 		};
 		3EE7973A86AFECF9D87CA337 /* Frameworks */ = {
@@ -686,12 +680,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C6BF17C1DBB451F00DB1700 /* KMTweetsVC.m in Sources */,
 				1C6BF1551DBB08B400DB1700 /* KMInfomationVC.m in Sources */,
 				1C6BF1691DBB380300DB1700 /* KMBlogVC.m in Sources */,
 				1C6BF14A1DBAF7BC00DB1700 /* KMNetworkManager.m in Sources */,
 				1C6BF16F1DBB391E00DB1700 /* KMQuestionVC.m in Sources */,
 				1C6876261DB509BE003B180B /* AppDelegate.m in Sources */,
 				1C68766A1DB512C7003B180B /* UIViewController+Table.m in Sources */,
+				1C6BF17F1DBB477A00DB1700 /* KMTweetVC.m in Sources */,
 				1C6876711DB51AFB003B180B /* KMMainModel.m in Sources */,
 				1C6876791DB52468003B180B /* KMMeVC.m in Sources */,
 				1C6BF16C1DBB38FC00DB1700 /* KMActivityVC.m in Sources */,
