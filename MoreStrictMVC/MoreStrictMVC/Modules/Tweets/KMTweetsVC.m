@@ -25,9 +25,10 @@
     
     self.title = @"动弹";
     self.items = @[@"最新动弹", @"热门动弹", @"我的动弹"];
-    
+
     self.cellSpacing = 15;
-//    self.cellWidth = 60;
+    CGFloat w = ([UIScreen mainScreen].bounds.size.width - (self.items.count - 1) * self.cellSpacing )/self.items.count;
+    self.cellWidth = w;
     self.cellEdging = 10;
     
     self.adjustStatusBarHeight = YES;

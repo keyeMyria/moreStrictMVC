@@ -39,7 +39,8 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     self.cellSpacing = 10;
-    self.cellWidth = 70;
+    CGFloat w = ([UIScreen mainScreen].bounds.size.width - (self.items.count - 1) * self.cellSpacing )/self.items.count;
+    self.cellWidth = w;
     self.cellEdging = 10;
     
     self.adjustStatusBarHeight = YES;

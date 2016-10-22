@@ -8,7 +8,14 @@
 
 #import "KMInfomationVC.h"
 
-@interface KMInfomationVC ()
+#import "KMInfomationTable.h"
+
+
+@interface KMInfomationVC ()<KMBaseTableViewDelegate>
+
+
+@property (nonatomic, strong) KMInfomationTable *infoTable;
+
 
 @end
 
@@ -20,6 +27,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    CGRect frame = CGRectMake(0, 0, SCREEN_WIDTH, HEIGHT_CONTENT - 49);
+    
+    _infoTable = (KMInfomationTable*)[self addTableViewWithClassStr:NSStringFromClass([KMInfomationTable class]) frame:frame style:(UITableViewStylePlain) baseDelegate:self inView:self.view];
+    
     
 }
 
@@ -29,7 +41,13 @@
 }
 
 
+- (void)baseTableView:(KMBaseTableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+}
 
+- (void)baseTableView:(KMBaseTableView *)tableView triggerPage:(NSInteger)page {
+    
+}
 
 
 

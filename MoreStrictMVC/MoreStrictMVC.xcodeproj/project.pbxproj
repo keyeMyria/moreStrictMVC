@@ -32,6 +32,16 @@
 		1C6BF17C1DBB451F00DB1700 /* KMTweetsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF17B1DBB451F00DB1700 /* KMTweetsVC.m */; };
 		1C6BF17F1DBB477A00DB1700 /* KMTweetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF17E1DBB477A00DB1700 /* KMTweetVC.m */; };
 		1C6BF1831DBB514900DB1700 /* KMDiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1821DBB514900DB1700 /* KMDiscoverVC.m */; };
+		1C6BF1861DBB938400DB1700 /* KMInfomationTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1851DBB938400DB1700 /* KMInfomationTable.m */; };
+		1C6BF18A1DBB97E200DB1700 /* KMInfomationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1881DBB97E200DB1700 /* KMInfomationCell.m */; };
+		1C6BF18B1DBB97E200DB1700 /* KMInfomationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BF1891DBB97E200DB1700 /* KMInfomationCell.xib */; };
+		1C6BF1911DBB9CAD00DB1700 /* KMOSCInformationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1901DBB9CAD00DB1700 /* KMOSCInformationModel.m */; };
+		1C6BF1951DBB9D6F00DB1700 /* NSTextAttachment+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1941DBB9D6F00DB1700 /* NSTextAttachment+Util.m */; };
+		1C6BF1981DBBA2C000DB1700 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1971DBBA2C000DB1700 /* Utils.m */; };
+		1C6BF1A61DBBA9C200DB1700 /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF19F1DBBA9C200DB1700 /* FAImageView.m */; };
+		1C6BF1A71DBBA9C200DB1700 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1A11DBBA9C200DB1700 /* NSString+FontAwesome.m */; };
+		1C6BF1A81DBBA9C200DB1700 /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1A31DBBA9C200DB1700 /* UIFont+FontAwesome.m */; };
+		1C6BF1A91DBBA9C200DB1700 /* UIImage+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1A51DBBA9C200DB1700 /* UIImage+FontAwesome.m */; };
 		9B87A5D3F5C08D608660ABC5 /* libPods-MoreStrictMVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E378F90FBCE356B31FEF00 /* libPods-MoreStrictMVC.a */; };
 /* End PBXBuildFile section */
 
@@ -109,6 +119,26 @@
 		1C6BF17E1DBB477A00DB1700 /* KMTweetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTweetVC.m; sourceTree = "<group>"; };
 		1C6BF1811DBB514900DB1700 /* KMDiscoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDiscoverVC.h; sourceTree = "<group>"; };
 		1C6BF1821DBB514900DB1700 /* KMDiscoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDiscoverVC.m; sourceTree = "<group>"; };
+		1C6BF1841DBB938400DB1700 /* KMInfomationTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMInfomationTable.h; sourceTree = "<group>"; };
+		1C6BF1851DBB938400DB1700 /* KMInfomationTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMInfomationTable.m; sourceTree = "<group>"; };
+		1C6BF1871DBB97E200DB1700 /* KMInfomationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMInfomationCell.h; sourceTree = "<group>"; };
+		1C6BF1881DBB97E200DB1700 /* KMInfomationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMInfomationCell.m; sourceTree = "<group>"; };
+		1C6BF1891DBB97E200DB1700 /* KMInfomationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMInfomationCell.xib; sourceTree = "<group>"; };
+		1C6BF18F1DBB9CAD00DB1700 /* KMOSCInformationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMOSCInformationModel.h; sourceTree = "<group>"; };
+		1C6BF1901DBB9CAD00DB1700 /* KMOSCInformationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMOSCInformationModel.m; sourceTree = "<group>"; };
+		1C6BF1931DBB9D6F00DB1700 /* NSTextAttachment+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextAttachment+Util.h"; sourceTree = "<group>"; };
+		1C6BF1941DBB9D6F00DB1700 /* NSTextAttachment+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextAttachment+Util.m"; sourceTree = "<group>"; };
+		1C6BF1961DBBA2C000DB1700 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		1C6BF1971DBBA2C000DB1700 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		1C6BF19E1DBBA9C200DB1700 /* FAImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAImageView.h; sourceTree = "<group>"; };
+		1C6BF19F1DBBA9C200DB1700 /* FAImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
+		1C6BF1A01DBBA9C200DB1700 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		1C6BF1A11DBBA9C200DB1700 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		1C6BF1A21DBBA9C200DB1700 /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
+		1C6BF1A31DBBA9C200DB1700 /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
+		1C6BF1A41DBBA9C200DB1700 /* UIImage+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FontAwesome.h"; sourceTree = "<group>"; };
+		1C6BF1A51DBBA9C200DB1700 /* UIImage+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FontAwesome.m"; sourceTree = "<group>"; };
+		1C6BF1AA1DBBAABD00DB1700 /* KMDevicesAndUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMDevicesAndUI.h; sourceTree = "<group>"; };
 		54E378F90FBCE356B31FEF00 /* libPods-MoreStrictMVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoreStrictMVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A250226D50B763D2559DD5CE /* Pods-MoreStrictMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreStrictMVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoreStrictMVC/Pods-MoreStrictMVC.release.xcconfig"; sourceTree = "<group>"; };
 		AE1FE4DDF5C2E3F48719773D /* Pods-MoreStrictMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreStrictMVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoreStrictMVC/Pods-MoreStrictMVC.debug.xcconfig"; sourceTree = "<group>"; };
@@ -318,9 +348,12 @@
 		1C6BF1411DBAED5B00DB1700 /* oschina */ = {
 			isa = PBXGroup;
 			children = (
+				1C6BF19D1DBBA9C200DB1700 /* FontAwesome */,
 				1C6BF1701DBB3B2900DB1700 /* Category */,
 				1C6BF1421DBAED5B00DB1700 /* OSCAPI.h */,
 				1C6BF1431DBAED5B00DB1700 /* TeamAPI.h */,
+				1C6BF1961DBBA2C000DB1700 /* Utils.h */,
+				1C6BF1971DBBA2C000DB1700 /* Utils.m */,
 			);
 			path = oschina;
 			sourceTree = "<group>";
@@ -391,6 +424,8 @@
 			children = (
 				1C6BF1591DBB0AB200DB1700 /* KMOSCBannerModel.h */,
 				1C6BF15A1DBB0AB200DB1700 /* KMOSCBannerModel.m */,
+				1C6BF18F1DBB9CAD00DB1700 /* KMOSCInformationModel.h */,
+				1C6BF1901DBB9CAD00DB1700 /* KMOSCInformationModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -398,6 +433,11 @@
 		1C6BF1581DBB0A9C00DB1700 /* Veiws */ = {
 			isa = PBXGroup;
 			children = (
+				1C6BF1841DBB938400DB1700 /* KMInfomationTable.h */,
+				1C6BF1851DBB938400DB1700 /* KMInfomationTable.m */,
+				1C6BF1871DBB97E200DB1700 /* KMInfomationCell.h */,
+				1C6BF1881DBB97E200DB1700 /* KMInfomationCell.m */,
+				1C6BF1891DBB97E200DB1700 /* KMInfomationCell.xib */,
 			);
 			path = Veiws;
 			sourceTree = "<group>";
@@ -406,6 +446,7 @@
 			isa = PBXGroup;
 			children = (
 				1C6BF15D1DBB0B0600DB1700 /* enumList.h */,
+				1C6BF1AA1DBBAABD00DB1700 /* KMDevicesAndUI.h */,
 			);
 			path = DefinesAndEnum;
 			sourceTree = "<group>";
@@ -440,6 +481,8 @@
 		1C6BF1701DBB3B2900DB1700 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				1C6BF1991DBBA37A00DB1700 /* NSDate */,
+				1C6BF1921DBB9D6F00DB1700 /* NSTextAttachment */,
 				1C6BF1751DBB3C0F00DB1700 /* UIView */,
 				1C6BF1711DBB3B2900DB1700 /* UIColor */,
 			);
@@ -482,6 +525,37 @@
 				1C6BF1821DBB514900DB1700 /* KMDiscoverVC.m */,
 			);
 			path = Discover;
+			sourceTree = "<group>";
+		};
+		1C6BF1921DBB9D6F00DB1700 /* NSTextAttachment */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF1931DBB9D6F00DB1700 /* NSTextAttachment+Util.h */,
+				1C6BF1941DBB9D6F00DB1700 /* NSTextAttachment+Util.m */,
+			);
+			path = NSTextAttachment;
+			sourceTree = "<group>";
+		};
+		1C6BF1991DBBA37A00DB1700 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		1C6BF19D1DBBA9C200DB1700 /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF19E1DBBA9C200DB1700 /* FAImageView.h */,
+				1C6BF19F1DBBA9C200DB1700 /* FAImageView.m */,
+				1C6BF1A01DBBA9C200DB1700 /* NSString+FontAwesome.h */,
+				1C6BF1A11DBBA9C200DB1700 /* NSString+FontAwesome.m */,
+				1C6BF1A21DBBA9C200DB1700 /* UIFont+FontAwesome.h */,
+				1C6BF1A31DBBA9C200DB1700 /* UIFont+FontAwesome.m */,
+				1C6BF1A41DBBA9C200DB1700 /* UIImage+FontAwesome.h */,
+				1C6BF1A51DBBA9C200DB1700 /* UIImage+FontAwesome.m */,
+			);
+			path = FontAwesome;
 			sourceTree = "<group>";
 		};
 		3EE7973A86AFECF9D87CA337 /* Frameworks */ = {
@@ -615,6 +689,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C6876311DB509BE003B180B /* LaunchScreen.storyboard in Resources */,
+				1C6BF18B1DBB97E200DB1700 /* KMInfomationCell.xib in Resources */,
 				1C68762E1DB509BE003B180B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,15 +763,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C6BF1A71DBBA9C200DB1700 /* NSString+FontAwesome.m in Sources */,
 				1C6BF17C1DBB451F00DB1700 /* KMTweetsVC.m in Sources */,
 				1C6BF1551DBB08B400DB1700 /* KMInfomationVC.m in Sources */,
 				1C6BF1691DBB380300DB1700 /* KMBlogVC.m in Sources */,
+				1C6BF1981DBBA2C000DB1700 /* Utils.m in Sources */,
 				1C6BF14A1DBAF7BC00DB1700 /* KMNetworkManager.m in Sources */,
 				1C6BF16F1DBB391E00DB1700 /* KMQuestionVC.m in Sources */,
 				1C6876261DB509BE003B180B /* AppDelegate.m in Sources */,
+				1C6BF1A91DBBA9C200DB1700 /* UIImage+FontAwesome.m in Sources */,
+				1C6BF1911DBB9CAD00DB1700 /* KMOSCInformationModel.m in Sources */,
+				1C6BF1861DBB938400DB1700 /* KMInfomationTable.m in Sources */,
+				1C6BF1A81DBBA9C200DB1700 /* UIFont+FontAwesome.m in Sources */,
+				1C6BF1A61DBBA9C200DB1700 /* FAImageView.m in Sources */,
 				1C68766A1DB512C7003B180B /* UIViewController+Table.m in Sources */,
 				1C6BF17F1DBB477A00DB1700 /* KMTweetVC.m in Sources */,
 				1C6876791DB52468003B180B /* KMMeVC.m in Sources */,
+				1C6BF18A1DBB97E200DB1700 /* KMInfomationCell.m in Sources */,
+				1C6BF1951DBB9D6F00DB1700 /* NSTextAttachment+Util.m in Sources */,
 				1C6BF16C1DBB38FC00DB1700 /* KMActivityVC.m in Sources */,
 				1C6BF1781DBB3C0F00DB1700 /* UIView+Util.m in Sources */,
 				1C6876621DB50E2B003B180B /* KMBaseVC.m in Sources */,
@@ -849,6 +933,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z8LXWX6V5D;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -867,6 +952,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z8LXWX6V5D;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",

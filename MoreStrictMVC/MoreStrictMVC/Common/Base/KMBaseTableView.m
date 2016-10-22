@@ -26,18 +26,18 @@
 - (instancetype)initWithFrame:(CGRect)frame style:(UITableViewStyle)style {
     self = [super initWithFrame:frame style:style];
     if (self) {
-        [self configureTable];
+        [self configure];
     }
     return self;
 }
 
 
-- (void)configureTable {
+- (void)configure{
     self.currentPage = 1;
     self.tableData = [NSMutableArray array];
     
     self.delegate = self;
-    
+    self.dataSource = self;
     
 }
 
@@ -155,7 +155,13 @@
 }
 
 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.tableData.count;
+}
 
+- (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return nil;
+}
 
 @end
 
