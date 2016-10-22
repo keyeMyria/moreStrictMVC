@@ -17,9 +17,7 @@
 
 + (instancetype)shareNetworkingManager;
 
+
 - (void)initWithBaseUrl:(NSString*)urlStr;
-
-
-
 
 @end
