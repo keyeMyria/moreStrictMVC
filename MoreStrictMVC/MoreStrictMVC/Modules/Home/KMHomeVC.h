@@ -6,8 +6,12 @@
 //  Copyright © 2016 Keye Myria. All rights reserved.
 //
 
-#import "KMBaseVC.h"
+#import "TYTabButtonPagerController.h"
 
-@interface KMHomeVC : KMBaseVC
+@interface KMHomeVC : TYTabButtonPagerController
+
+
+
+
 
 @end

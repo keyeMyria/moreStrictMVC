@@ -47,14 +47,4 @@
 
 
 
-- (void)endEditing {
-    [self.view endEditing:YES];
-}
-
-- (void)makeCall:(NSString*)phoneNo {
-    NSString *rnum = [NSString stringWithFormat:@"tel://%@", phoneNo];
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:rnum]];
-}
-
-
 @end

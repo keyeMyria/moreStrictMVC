@@ -13,10 +13,6 @@
 
 @interface KMBaseVC : UIViewController
 
-- (void)endEditing;
-- (void)makeCall:(NSString*)phoneNo;
-
-
 
 
 

@@ -8,8 +8,8 @@
 
 #import "AppDelegate.h"
 
-
-
+#import "UIColor+Util.h"
+#import "UIView+Util.h"
 
 
 @interface AppDelegate ()
@@ -22,6 +22,27 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    NSDictionary *navbarTitleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
+    [[UINavigationBar appearance] setTitleTextAttributes:navbarTitleTextAttributes];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    [[UITabBar appearance] setTintColor:[UIColor colorWithHex:0x24CF5F]];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithHex:0x24cf5f]} forState:UIControlStateSelected];
+    
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor navigationbarColor]];
+    [[UITabBar appearance] setBarTintColor:[UIColor titleBarColor]];
+    
+    [UISearchBar appearance].tintColor = [UIColor colorWithHex:0x15A230];
+    [[UITextField appearanceWhenContainedIn:[UISearchBar class], nil] setCornerRadius:14.0];
+    [[UITextField appearanceWhenContainedIn:[UISearchBar class], nil] setAlpha:0.6];
+    
+    [[UITextField appearance] setTintColor:[UIColor nameColor]];
+    [[UITextView appearance]  setTintColor:[UIColor nameColor]];
+    
     
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     

@@ -22,6 +22,14 @@
 		1C6876791DB52468003B180B /* KMMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6876781DB52468003B180B /* KMMeVC.m */; };
 		1C6BF14A1DBAF7BC00DB1700 /* KMNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1491DBAF7BC00DB1700 /* KMNetworkManager.m */; };
 		1C6BF14D1DBAFECA00DB1700 /* KMNetrequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF14C1DBAFECA00DB1700 /* KMNetrequest.m */; };
+		1C6BF1551DBB08B400DB1700 /* KMInfomationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1541DBB08B400DB1700 /* KMInfomationVC.m */; };
+		1C6BF15B1DBB0AB200DB1700 /* KMOSCBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF15A1DBB0AB200DB1700 /* KMOSCBannerModel.m */; };
+		1C6BF1601DBB16A200DB1700 /* UIViewController+KMFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF15F1DBB16A200DB1700 /* UIViewController+KMFunction.m */; };
+		1C6BF1691DBB380300DB1700 /* KMBlogVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1681DBB380300DB1700 /* KMBlogVC.m */; };
+		1C6BF16C1DBB38FC00DB1700 /* KMActivityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF16B1DBB38FC00DB1700 /* KMActivityVC.m */; };
+		1C6BF16F1DBB391E00DB1700 /* KMQuestionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF16E1DBB391E00DB1700 /* KMQuestionVC.m */; };
+		1C6BF1741DBB3B2900DB1700 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1731DBB3B2900DB1700 /* UIColor+Util.m */; };
+		1C6BF1781DBB3C0F00DB1700 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1771DBB3C0F00DB1700 /* UIView+Util.m */; };
 		9B87A5D3F5C08D608660ABC5 /* libPods-MoreStrictMVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E378F90FBCE356B31FEF00 /* libPods-MoreStrictMVC.a */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +85,24 @@
 		1C6BF1491DBAF7BC00DB1700 /* KMNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMNetworkManager.m; sourceTree = "<group>"; };
 		1C6BF14B1DBAFECA00DB1700 /* KMNetrequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMNetrequest.h; sourceTree = "<group>"; };
 		1C6BF14C1DBAFECA00DB1700 /* KMNetrequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMNetrequest.m; sourceTree = "<group>"; };
+		1C6BF1531DBB08B400DB1700 /* KMInfomationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMInfomationVC.h; sourceTree = "<group>"; };
+		1C6BF1541DBB08B400DB1700 /* KMInfomationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMInfomationVC.m; sourceTree = "<group>"; };
+		1C6BF1561DBB09BB00DB1700 /* iosapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iosapp-Prefix.pch"; sourceTree = "<group>"; };
+		1C6BF1591DBB0AB200DB1700 /* KMOSCBannerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMOSCBannerModel.h; sourceTree = "<group>"; };
+		1C6BF15A1DBB0AB200DB1700 /* KMOSCBannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMOSCBannerModel.m; sourceTree = "<group>"; };
+		1C6BF15D1DBB0B0600DB1700 /* enumList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = enumList.h; sourceTree = "<group>"; };
+		1C6BF15E1DBB16A200DB1700 /* UIViewController+KMFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KMFunction.h"; sourceTree = "<group>"; };
+		1C6BF15F1DBB16A200DB1700 /* UIViewController+KMFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KMFunction.m"; sourceTree = "<group>"; };
+		1C6BF1671DBB380300DB1700 /* KMBlogVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMBlogVC.h; sourceTree = "<group>"; };
+		1C6BF1681DBB380300DB1700 /* KMBlogVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMBlogVC.m; sourceTree = "<group>"; };
+		1C6BF16A1DBB38FC00DB1700 /* KMActivityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMActivityVC.h; sourceTree = "<group>"; };
+		1C6BF16B1DBB38FC00DB1700 /* KMActivityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMActivityVC.m; sourceTree = "<group>"; };
+		1C6BF16D1DBB391E00DB1700 /* KMQuestionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMQuestionVC.h; sourceTree = "<group>"; };
+		1C6BF16E1DBB391E00DB1700 /* KMQuestionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMQuestionVC.m; sourceTree = "<group>"; };
+		1C6BF1721DBB3B2900DB1700 /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
+		1C6BF1731DBB3B2900DB1700 /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
+		1C6BF1761DBB3C0F00DB1700 /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
+		1C6BF1771DBB3C0F00DB1700 /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
 		54E378F90FBCE356B31FEF00 /* libPods-MoreStrictMVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoreStrictMVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A250226D50B763D2559DD5CE /* Pods-MoreStrictMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreStrictMVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoreStrictMVC/Pods-MoreStrictMVC.release.xcconfig"; sourceTree = "<group>"; };
 		AE1FE4DDF5C2E3F48719773D /* Pods-MoreStrictMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoreStrictMVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoreStrictMVC/Pods-MoreStrictMVC.debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				1C6876221DB509BE003B180B /* main.m */,
+				1C6BF1561DBB09BB00DB1700 /* iosapp-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -188,8 +215,11 @@
 			children = (
 				1C6876721DB52438003B180B /* KMHomeVC.h */,
 				1C6876731DB52438003B180B /* KMHomeVC.m */,
-				1C6876751DB52443003B180B /* Models */,
-				1C6876761DB52443003B180B /* Views */,
+				1C6BF1641DBB37AF00DB1700 /* activity */,
+				1C6BF1651DBB37AF00DB1700 /* blog */,
+				1C6BF1661DBB37AF00DB1700 /* question */,
+				1C6BF14F1DBB074700DB1700 /* home */,
+				1C6BF1521DBB074700DB1700 /* info */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -228,6 +258,7 @@
 		1C68765C1DB50E09003B180B /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				1C6BF15C1DBB0AF000DB1700 /* DefinesAndEnum */,
 				1C6BF1441DBAF04A00DB1700 /* Networking */,
 				1C68765D1DB50E09003B180B /* Base */,
 				1C68765E1DB50E09003B180B /* Category */,
@@ -268,6 +299,8 @@
 			children = (
 				1C6876681DB512C7003B180B /* UIViewController+Table.h */,
 				1C6876691DB512C7003B180B /* UIViewController+Table.m */,
+				1C6BF15E1DBB16A200DB1700 /* UIViewController+KMFunction.h */,
+				1C6BF15F1DBB16A200DB1700 /* UIViewController+KMFunction.m */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -300,23 +333,10 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		1C6876751DB52443003B180B /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		1C6876761DB52443003B180B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		1C6BF1411DBAED5B00DB1700 /* oschina */ = {
 			isa = PBXGroup;
 			children = (
+				1C6BF1701DBB3B2900DB1700 /* Category */,
 				1C6BF1421DBAED5B00DB1700 /* OSCAPI.h */,
 				1C6BF1431DBAED5B00DB1700 /* TeamAPI.h */,
 			);
@@ -334,12 +354,132 @@
 		1C6BF1451DBAF04A00DB1700 /* http */ = {
 			isa = PBXGroup;
 			children = (
+				1C6BF14E1DBB06E000DB1700 /* api */,
 				1C6BF1481DBAF7BC00DB1700 /* KMNetworkManager.h */,
 				1C6BF1491DBAF7BC00DB1700 /* KMNetworkManager.m */,
 				1C6BF14B1DBAFECA00DB1700 /* KMNetrequest.h */,
 				1C6BF14C1DBAFECA00DB1700 /* KMNetrequest.m */,
 			);
 			path = http;
+			sourceTree = "<group>";
+		};
+		1C6BF14E1DBB06E000DB1700 /* api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		1C6BF14F1DBB074700DB1700 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF1501DBB074700DB1700 /* Models */,
+				1C6BF1511DBB074700DB1700 /* Views */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		1C6BF1501DBB074700DB1700 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C6BF1511DBB074700DB1700 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C6BF1521DBB074700DB1700 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF1531DBB08B400DB1700 /* KMInfomationVC.h */,
+				1C6BF1541DBB08B400DB1700 /* KMInfomationVC.m */,
+				1C6BF1571DBB0A9C00DB1700 /* Models */,
+				1C6BF1581DBB0A9C00DB1700 /* Veiws */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		1C6BF1571DBB0A9C00DB1700 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF1591DBB0AB200DB1700 /* KMOSCBannerModel.h */,
+				1C6BF15A1DBB0AB200DB1700 /* KMOSCBannerModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C6BF1581DBB0A9C00DB1700 /* Veiws */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Veiws;
+			sourceTree = "<group>";
+		};
+		1C6BF15C1DBB0AF000DB1700 /* DefinesAndEnum */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF15D1DBB0B0600DB1700 /* enumList.h */,
+			);
+			path = DefinesAndEnum;
+			sourceTree = "<group>";
+		};
+		1C6BF1641DBB37AF00DB1700 /* activity */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF16A1DBB38FC00DB1700 /* KMActivityVC.h */,
+				1C6BF16B1DBB38FC00DB1700 /* KMActivityVC.m */,
+			);
+			path = activity;
+			sourceTree = "<group>";
+		};
+		1C6BF1651DBB37AF00DB1700 /* blog */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF1671DBB380300DB1700 /* KMBlogVC.h */,
+				1C6BF1681DBB380300DB1700 /* KMBlogVC.m */,
+			);
+			path = blog;
+			sourceTree = "<group>";
+		};
+		1C6BF1661DBB37AF00DB1700 /* question */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF16D1DBB391E00DB1700 /* KMQuestionVC.h */,
+				1C6BF16E1DBB391E00DB1700 /* KMQuestionVC.m */,
+			);
+			path = question;
+			sourceTree = "<group>";
+		};
+		1C6BF1701DBB3B2900DB1700 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF1751DBB3C0F00DB1700 /* UIView */,
+				1C6BF1711DBB3B2900DB1700 /* UIColor */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1C6BF1711DBB3B2900DB1700 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF1721DBB3B2900DB1700 /* UIColor+Util.h */,
+				1C6BF1731DBB3B2900DB1700 /* UIColor+Util.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		1C6BF1751DBB3C0F00DB1700 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF1761DBB3C0F00DB1700 /* UIView+Util.h */,
+				1C6BF1771DBB3C0F00DB1700 /* UIView+Util.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		3EE7973A86AFECF9D87CA337 /* Frameworks */ = {
@@ -546,16 +686,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C6BF1551DBB08B400DB1700 /* KMInfomationVC.m in Sources */,
+				1C6BF1691DBB380300DB1700 /* KMBlogVC.m in Sources */,
 				1C6BF14A1DBAF7BC00DB1700 /* KMNetworkManager.m in Sources */,
+				1C6BF16F1DBB391E00DB1700 /* KMQuestionVC.m in Sources */,
 				1C6876261DB509BE003B180B /* AppDelegate.m in Sources */,
 				1C68766A1DB512C7003B180B /* UIViewController+Table.m in Sources */,
 				1C6876711DB51AFB003B180B /* KMMainModel.m in Sources */,
 				1C6876791DB52468003B180B /* KMMeVC.m in Sources */,
+				1C6BF16C1DBB38FC00DB1700 /* KMActivityVC.m in Sources */,
+				1C6BF1781DBB3C0F00DB1700 /* UIView+Util.m in Sources */,
 				1C6876621DB50E2B003B180B /* KMBaseVC.m in Sources */,
+				1C6BF15B1DBB0AB200DB1700 /* KMOSCBannerModel.m in Sources */,
 				1C6876231DB509BE003B180B /* main.m in Sources */,
 				1C68765B1DB50CBB003B180B /* KMMainVC.m in Sources */,
+				1C6BF1741DBB3B2900DB1700 /* UIColor+Util.m in Sources */,
 				1C6BF14D1DBAFECA00DB1700 /* KMNetrequest.m in Sources */,
 				1C6876651DB50EBE003B180B /* KMBaseTableView.m in Sources */,
+				1C6BF1601DBB16A200DB1700 /* UIViewController+KMFunction.m in Sources */,
 				1C6876741DB52438003B180B /* KMHomeVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

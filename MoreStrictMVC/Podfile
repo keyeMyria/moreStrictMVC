@@ -15,5 +15,7 @@ target 'MoreStrictMVC' do
     pod 'SDAutoLayout', '~> 2.1.7'
     pod 'UITableView+FDTemplateLayoutCell' , '~> 1.5.beta'
     pod 'MBProgressHUD'
+    pod 'TYPagerController'
+    pod 'GPUImage'
 
 end
