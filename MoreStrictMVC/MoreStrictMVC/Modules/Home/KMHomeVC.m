@@ -46,8 +46,8 @@
     self.navigationController.navigationBarHidden = NO;
     self.barStyle = TYPagerBarStyleNoneView;
     
-    self.contentView.backgroundColor = [UIColor navigationbarColor];
-    self.selectedTextColor = [UIColor colorWithHex:0x909090];
+    self.contentView.backgroundColor = [UIColor titleBarColor];
+    self.selectedTextColor = [UIColor newSectionButtonSelectedColor];
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch
                                                                                                      target:self
