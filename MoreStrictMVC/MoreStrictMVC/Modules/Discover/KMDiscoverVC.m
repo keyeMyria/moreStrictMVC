@@ -1,26 +1,25 @@
 //
-//  KMMeVC.m
+//  KMDiscoverVC.m
 //  MoreStrictMVC
 //
-//  Created by Keye Myria on 10/17/16.
+//  Created by Keye Myria on 10/22/16.
 //  Copyright © 2016 Keye Myria. All rights reserved.
 //
 
-#import "KMMeVC.h"
+#import "KMDiscoverVC.h"
 
-@interface KMMeVC ()
+@interface KMDiscoverVC ()
 
 @end
 
-@implementation KMMeVC
-
-
-
+@implementation KMDiscoverVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.title = @"Me";
-    self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.title = @"发现";
+    
+    
     
 }
 
@@ -28,12 +27,6 @@
     [super didReceiveMemoryWarning];
 
 }
-
-
-
-
-
-
 
 
 @end

@@ -11,6 +11,7 @@
 #import "KMHomeVC.h"
 #import "KMMeVC.h"
 #import "KMTweetsVC.h"
+#import "KMDiscoverVC.h"
 
 @interface KMMainVC ()
 
@@ -28,26 +29,27 @@
     KMMeVC *mevc = [[KMMeVC alloc] init];
     KMHomeVC *homevc = [[KMHomeVC alloc] init];
     KMTweetsVC *tweetsvc = [[KMTweetsVC alloc] init];
+    KMDiscoverVC *discovervc = [[KMDiscoverVC alloc] init];
     
     UINavigationController *me = [[UINavigationController alloc] initWithRootViewController:mevc];
     UINavigationController *tweets = [[UINavigationController alloc] initWithRootViewController:tweetsvc];
+    UINavigationController *discover = [[UINavigationController alloc] initWithRootViewController:discovervc];
     UINavigationController *home = [[UINavigationController alloc] initWithRootViewController:homevc];
     
+    self.viewControllers = @[home, tweets, //[UIViewController new],
+                             discover, me];
     
-    self.viewControllers = @[home, tweets, me];
-    
-    NSArray *titles = @[@"综合", @"动弹",// @"", @"发现",
-                        @"我的"];
-    NSArray *images = @[@"tabbar-news", @"tabbar-tweet", // @"", @"tabbar-discover",
-                        @"tabbar-me"];
+    NSArray *titles = @[@"综合", @"动弹", // @"",
+                        @"发现",@"我的"];
+    NSArray *images = @[@"tabbar-news", @"tabbar-tweet",// @"",
+                        @"tabbar-discover", @"tabbar-me"];
     
     [self.tabBar.items enumerateObjectsUsingBlock:^(UITabBarItem * _Nonnull anitem, NSUInteger idx, BOOL * _Nonnull stop) {
         [anitem setTitle:titles[idx]];
         anitem.image = [[UIImage imageNamed:images[idx]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         anitem.selectedImage = [[UIImage imageNamed:[images[idx] stringByAppendingString:@"-selected"]]  imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     }];
-    
-    
+//    [self.tabBar.items[2] setEnabled:NO];
     
 }
 
