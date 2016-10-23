@@ -14,6 +14,8 @@
 
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *iden;
+@property (nonatomic, copy) NSString *clazz;
+
 
 
 @end

@@ -16,6 +16,7 @@
 
 -(KMBaseTableView*)addTableViewWithClassStr:(NSString *)clazzStr frame:(CGRect)frame style:(UITableViewStyle)style baseDelegate:(id<KMBaseTableViewDelegate>)baseDelegate inView:(UIView*)spview {
     KMBaseTableView *baseTable = [[NSClassFromString(clazzStr) alloc] initWithFrame:frame style:style];
+    baseTable.baseDelegate = baseDelegate;
     if (spview) {
         [spview addSubview:baseTable];
     }

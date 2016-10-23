@@ -24,7 +24,7 @@
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     _demovc = [[KMDemoVC alloc] init];
-    _window.rootViewController = _demovc;
+    _window.rootViewController = [[UINavigationController alloc] initWithRootViewController:_demovc];
     
     [_window makeKeyAndVisible];
     

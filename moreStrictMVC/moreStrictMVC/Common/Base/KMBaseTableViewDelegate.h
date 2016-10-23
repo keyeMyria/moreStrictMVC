@@ -15,13 +15,13 @@
 
 @optional
 
-- (void)baseTableView:(KMBaseTableView *)tableView triggerPage:(NSInteger)page;
+- (void)baseTableView:(KMBaseTableView *)baseTable triggerPage:(NSInteger)page;
 
-- (void)baseTableView:(KMBaseTableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
+- (void)baseTableView:(KMBaseTableView *)baseTable didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 
-- (void)baseTableView:(KMBaseTableView *)tableView cellButton:(UIButton*)button atIndexPath:(NSIndexPath *)indexPath;
-- (void)baseTableView:(KMBaseTableView *)tableView sectionHeaderButton:(UIButton*)button atSection:(NSInteger)section;
-- (void)baseTableView:(KMBaseTableView *)tableView sectionFooterButton:(UIButton*)button atSection:(NSInteger)section;
+- (void)baseTableView:(KMBaseTableView *)baseTable cellButton:(UIButton*)button atIndexPath:(NSIndexPath *)indexPath;
+- (void)baseTableView:(KMBaseTableView *)baseTable sectionHeaderButton:(UIButton*)button atSection:(NSInteger)section;
+- (void)baseTableView:(KMBaseTableView *)baseTable sectionFooterButton:(UIButton*)button atSection:(NSInteger)section;
 
 
 

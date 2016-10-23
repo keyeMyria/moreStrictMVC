@@ -29,8 +29,10 @@
     
     NSArray<KMDemoModel*> *tarr = [KMDemoModel mj_objectArrayWithFilename:@"demo.plist"];
     
-    CGRect frame = CGRectMake(0, 0, SCREEN_WIDTH, HEIGHT_CONTENT);
+    CGRect frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREENH_HEIGHT);
     _demoTable = (KMDemoTable*)[self addTableViewWithClassStr:NSStringFromClass([KMDemoTable class]) frame:frame style:(UITableViewStylePlain) baseDelegate:self inView:self.view];
+    
+    _demoTable.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     
     [self.demoTable freshTableWith:tarr atPage:1];
     
@@ -43,7 +45,15 @@
 
 #pragma mark base table delegate
 
-- (void)baseTableView:(KMBaseTableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+- (void)baseTableView:(KMBaseTableView *)baseTable didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    KMDemoModel *demoModel = baseTable.tableData[indexPath.row];
+    
+    if (demoModel.clazz.length > 0) {
+        
+        KMBaseVC *vc = [[NSClassFromString(demoModel.clazz) alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
     
 }
 

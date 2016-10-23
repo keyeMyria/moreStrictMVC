@@ -7,12 +7,16 @@
 		<string>常规</string>
 		<key>iden</key>
 		<string>common</string>
+		<key>clazz</key>
+		<string>KMOSDemoVC</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>编辑</string>
 		<key>iden</key>
 		<string>editing</string>
+		<key>clazz</key>
+		<string></string>
 	</dict>
 </array>
 </plist>
