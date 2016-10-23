@@ -8,8 +8,6 @@
 
 #import "KMBaseTableView.h"
 
-#import <MJRefresh/MJRefresh.h>
-
 
 @interface KMBaseTableView ()
 

@@ -29,6 +29,11 @@
 		1C6BF2381DBC560400DB1700 /* KMOSInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF2371DBC560400DB1700 /* KMOSInfoModel.m */; };
 		1C6BF23C1DBC570700DB1700 /* KMOSDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF23A1DBC570700DB1700 /* KMOSDemoCell.m */; };
 		1C6BF23D1DBC570700DB1700 /* KMOSDemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BF23B1DBC570700DB1700 /* KMOSDemoCell.xib */; };
+		1C6BF2561DBC678100DB1700 /* KMEditingDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF2551DBC678100DB1700 /* KMEditingDemo.m */; };
+		1C6BF25B1DBC69B800DB1700 /* KMPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF25A1DBC69B800DB1700 /* KMPersonModel.m */; };
+		1C6BF25E1DBC69EE00DB1700 /* kMEditingDemoTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF25D1DBC69EE00DB1700 /* kMEditingDemoTable.m */; };
+		1C6BF2651DBC6B1000DB1700 /* kMEditingDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF2631DBC6B1000DB1700 /* kMEditingDemoCell.m */; };
+		1C6BF2661DBC6B1000DB1700 /* kMEditingDemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BF2641DBC6B1000DB1700 /* kMEditingDemoCell.xib */; };
 		D642D3ECEF833A9D8F271951 /* libPods-moreStrictMVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF18399437AE6B2DC7F361C /* libPods-moreStrictMVC.a */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +108,15 @@
 		1C6BF2391DBC570700DB1700 /* KMOSDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMOSDemoCell.h; sourceTree = "<group>"; };
 		1C6BF23A1DBC570700DB1700 /* KMOSDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMOSDemoCell.m; sourceTree = "<group>"; };
 		1C6BF23B1DBC570700DB1700 /* KMOSDemoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMOSDemoCell.xib; sourceTree = "<group>"; };
+		1C6BF2541DBC678100DB1700 /* KMEditingDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMEditingDemo.h; sourceTree = "<group>"; };
+		1C6BF2551DBC678100DB1700 /* KMEditingDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMEditingDemo.m; sourceTree = "<group>"; };
+		1C6BF2591DBC69B800DB1700 /* KMPersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMPersonModel.h; sourceTree = "<group>"; };
+		1C6BF25A1DBC69B800DB1700 /* KMPersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMPersonModel.m; sourceTree = "<group>"; };
+		1C6BF25C1DBC69EE00DB1700 /* kMEditingDemoTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kMEditingDemoTable.h; sourceTree = "<group>"; };
+		1C6BF25D1DBC69EE00DB1700 /* kMEditingDemoTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kMEditingDemoTable.m; sourceTree = "<group>"; };
+		1C6BF2621DBC6B1000DB1700 /* kMEditingDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kMEditingDemoCell.h; sourceTree = "<group>"; };
+		1C6BF2631DBC6B1000DB1700 /* kMEditingDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kMEditingDemoCell.m; sourceTree = "<group>"; };
+		1C6BF2641DBC6B1000DB1700 /* kMEditingDemoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = kMEditingDemoCell.xib; sourceTree = "<group>"; };
 		2AF18399437AE6B2DC7F361C /* libPods-moreStrictMVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moreStrictMVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4759FD95BE8166BD9AE98D /* Pods-moreStrictMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moreStrictMVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moreStrictMVC/Pods-moreStrictMVC.debug.xcconfig"; sourceTree = "<group>"; };
 		A4D0DA5C595757F1FA54604C /* Pods-moreStrictMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moreStrictMVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-moreStrictMVC/Pods-moreStrictMVC.release.xcconfig"; sourceTree = "<group>"; };
@@ -201,6 +215,7 @@
 		1C6BF1ED1DBC35B300DB1700 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				1C6BF2531DBC675E00DB1700 /* EditingDemo */,
 				1C6BF2181DBC4C7F00DB1700 /* OSChina */,
 				1C6BF1EE1DBC35C300DB1700 /* KMDemoVC.h */,
 				1C6BF1EF1DBC35C300DB1700 /* KMDemoVC.m */,
@@ -305,6 +320,38 @@
 				1C6BF22D1DBC501800DB1700 /* Localizable.strings */,
 			);
 			path = I18n;
+			sourceTree = "<group>";
+		};
+		1C6BF2531DBC675E00DB1700 /* EditingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF2541DBC678100DB1700 /* KMEditingDemo.h */,
+				1C6BF2551DBC678100DB1700 /* KMEditingDemo.m */,
+				1C6BF2571DBC698700DB1700 /* Models */,
+				1C6BF2581DBC698700DB1700 /* Views */,
+			);
+			path = EditingDemo;
+			sourceTree = "<group>";
+		};
+		1C6BF2571DBC698700DB1700 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF2591DBC69B800DB1700 /* KMPersonModel.h */,
+				1C6BF25A1DBC69B800DB1700 /* KMPersonModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C6BF2581DBC698700DB1700 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF25C1DBC69EE00DB1700 /* kMEditingDemoTable.h */,
+				1C6BF25D1DBC69EE00DB1700 /* kMEditingDemoTable.m */,
+				1C6BF2621DBC6B1000DB1700 /* kMEditingDemoCell.h */,
+				1C6BF2631DBC6B1000DB1700 /* kMEditingDemoCell.m */,
+				1C6BF2641DBC6B1000DB1700 /* kMEditingDemoCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		2EE2D3A498B6E26B10281FEE /* Frameworks */ = {
@@ -445,6 +492,7 @@
 				1C6BF1C71DBC322B00DB1700 /* Assets.xcassets in Resources */,
 				1C6BF20B1DBC3A4E00DB1700 /* KMDemoCell.xib in Resources */,
 				1C6BF2231DBC4F5500DB1700 /* InfoPlist.strings in Resources */,
+				1C6BF2661DBC6B1000DB1700 /* kMEditingDemoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,12 +565,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C6BF2651DBC6B1000DB1700 /* kMEditingDemoCell.m in Sources */,
 				1C6BF23C1DBC570700DB1700 /* KMOSDemoCell.m in Sources */,
+				1C6BF2561DBC678100DB1700 /* KMEditingDemo.m in Sources */,
 				1C6BF1F91DBC38E300DB1700 /* KMBaseVC.m in Sources */,
 				1C6BF2381DBC560400DB1700 /* KMOSInfoModel.m in Sources */,
+				1C6BF25B1DBC69B800DB1700 /* KMPersonModel.m in Sources */,
 				1C6BF1F01DBC35C300DB1700 /* KMDemoVC.m in Sources */,
 				1C6BF1BF1DBC322B00DB1700 /* AppDelegate.m in Sources */,
 				1C6BF1F81DBC38E300DB1700 /* KMBaseTableView.m in Sources */,
+				1C6BF25E1DBC69EE00DB1700 /* kMEditingDemoTable.m in Sources */,
 				1C6BF2161DBC413500DB1700 /* UIViewController+Table.m in Sources */,
 				1C6BF2351DBC55BC00DB1700 /* KMOSDemoTable.m in Sources */,
 				1C6BF21B1DBC4C9F00DB1700 /* KMOSDemoVC.m in Sources */,

@@ -16,7 +16,7 @@
 		<key>iden</key>
 		<string>editing</string>
 		<key>clazz</key>
-		<string></string>
+		<string>KMEditingDemo</string>
 	</dict>
 </array>
 </plist>

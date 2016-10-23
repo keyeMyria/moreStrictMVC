@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import <MJRefresh/MJRefresh.h>
+
 #import "KMBaseTableViewDelegate.h"
 
 #define TagBase4SectionHeaderView 1000

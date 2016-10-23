@@ -25,6 +25,8 @@ static NSString *const iden4OSDemoCell = @"iden4OSDemoCell";
         self.needRefreshFooter = YES;
         self.needRefreshHeader = YES;
         
+        self.mj_footer.automaticallyHidden = YES;
+        
         [self registerNib:[UINib nibWithNibName:NSStringFromClass([KMOSDemoCell class]) bundle:nil] forCellReuseIdentifier:iden4OSDemoCell];
     }
     return self;

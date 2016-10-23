@@ -11,6 +11,8 @@
 #import "UIViewController+Table.h"
 #import "KMDevicesAndUI.h"
 
+#import "AFNetworking.h"
+
 
 @interface KMBaseVC : UIViewController
 

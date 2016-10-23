@@ -28,7 +28,7 @@
     
     NSArray<KMDemoModel*> *tarr = [KMDemoModel mj_objectArrayWithFilename:@"demo.plist"];
     
-    CGRect frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREENH_HEIGHT);
+    CGRect frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
     _demoTable = (KMDemoTable*)[self addTableViewWithClassStr:NSStringFromClass([KMDemoTable class]) frame:frame style:(UITableViewStylePlain) baseDelegate:self inView:self.view];
     
     _demoTable.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
