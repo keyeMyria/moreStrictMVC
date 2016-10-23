@@ -4,3 +4,4 @@ Pod/*
 Pods/*
 Podfile.lock
 Pods
+*.xcuserdatad
