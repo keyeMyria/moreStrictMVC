@@ -13,7 +13,6 @@
 
 #import "KMDemoTable.h"
 
-
 @interface KMDemoVC ()<KMBaseTableViewDelegate>
 
 @property (nonatomic, strong) KMDemoTable *demoTable;
