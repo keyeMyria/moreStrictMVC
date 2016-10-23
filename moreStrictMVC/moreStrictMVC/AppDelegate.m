@@ -8,7 +8,11 @@
 
 #import "AppDelegate.h"
 
+#import "KMDemoVC.h"
+
 @interface AppDelegate ()
+
+@property (nonatomic, strong) KMDemoVC *demovc;
 
 @end
 
@@ -17,9 +21,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
+    _demovc = [[KMDemoVC alloc] init];
+    _window.rootViewController = _demovc;
     
-    
+    [_window makeKeyAndVisible];
     
     return YES;
 }

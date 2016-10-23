@@ -13,6 +13,16 @@
 		1C6BF1CA1DBC322B00DB1700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BF1C81DBC322B00DB1700 /* LaunchScreen.storyboard */; };
 		1C6BF1D51DBC322B00DB1700 /* moreStrictMVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1D41DBC322B00DB1700 /* moreStrictMVCTests.m */; };
 		1C6BF1E01DBC322B00DB1700 /* moreStrictMVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1DF1DBC322B00DB1700 /* moreStrictMVCUITests.m */; };
+		1C6BF1F01DBC35C300DB1700 /* KMDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1EF1DBC35C300DB1700 /* KMDemoVC.m */; };
+		1C6BF1F81DBC38E300DB1700 /* KMBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1F41DBC38E300DB1700 /* KMBaseTableView.m */; };
+		1C6BF1F91DBC38E300DB1700 /* KMBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1F71DBC38E300DB1700 /* KMBaseVC.m */; };
+		1C6BF2001DBC39ED00DB1700 /* KMDemoTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1FF1DBC39ED00DB1700 /* KMDemoTable.m */; };
+		1C6BF20A1DBC3A4E00DB1700 /* KMDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF2081DBC3A4E00DB1700 /* KMDemoCell.m */; };
+		1C6BF20B1DBC3A4E00DB1700 /* KMDemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BF2091DBC3A4E00DB1700 /* KMDemoCell.xib */; };
+		1C6BF20D1DBC3B1A00DB1700 /* demo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BF20C1DBC3B1A00DB1700 /* demo.plist */; };
+		1C6BF2111DBC3B8C00DB1700 /* KMDemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF2101DBC3B8C00DB1700 /* KMDemoModel.m */; };
+		1C6BF2161DBC413500DB1700 /* UIViewController+Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF2151DBC413500DB1700 /* UIViewController+Table.m */; };
+		D642D3ECEF833A9D8F271951 /* libPods-moreStrictMVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF18399437AE6B2DC7F361C /* libPods-moreStrictMVC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +56,27 @@
 		1C6BF1DB1DBC322B00DB1700 /* moreStrictMVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moreStrictMVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6BF1DF1DBC322B00DB1700 /* moreStrictMVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moreStrictMVCUITests.m; sourceTree = "<group>"; };
 		1C6BF1E11DBC322B00DB1700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6BF1EE1DBC35C300DB1700 /* KMDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDemoVC.h; sourceTree = "<group>"; };
+		1C6BF1EF1DBC35C300DB1700 /* KMDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDemoVC.m; sourceTree = "<group>"; };
+		1C6BF1F31DBC38E300DB1700 /* KMBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMBaseTableView.h; sourceTree = "<group>"; };
+		1C6BF1F41DBC38E300DB1700 /* KMBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMBaseTableView.m; sourceTree = "<group>"; };
+		1C6BF1F51DBC38E300DB1700 /* KMBaseTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMBaseTableViewDelegate.h; sourceTree = "<group>"; };
+		1C6BF1F61DBC38E300DB1700 /* KMBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMBaseVC.h; sourceTree = "<group>"; };
+		1C6BF1F71DBC38E300DB1700 /* KMBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMBaseVC.m; sourceTree = "<group>"; };
+		1C6BF1FE1DBC39ED00DB1700 /* KMDemoTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDemoTable.h; sourceTree = "<group>"; };
+		1C6BF1FF1DBC39ED00DB1700 /* KMDemoTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDemoTable.m; sourceTree = "<group>"; };
+		1C6BF2071DBC3A4E00DB1700 /* KMDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDemoCell.h; sourceTree = "<group>"; };
+		1C6BF2081DBC3A4E00DB1700 /* KMDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDemoCell.m; sourceTree = "<group>"; };
+		1C6BF2091DBC3A4E00DB1700 /* KMDemoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMDemoCell.xib; sourceTree = "<group>"; };
+		1C6BF20C1DBC3B1A00DB1700 /* demo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = demo.plist; sourceTree = "<group>"; };
+		1C6BF20F1DBC3B8C00DB1700 /* KMDemoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDemoModel.h; sourceTree = "<group>"; };
+		1C6BF2101DBC3B8C00DB1700 /* KMDemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDemoModel.m; sourceTree = "<group>"; };
+		1C6BF2131DBC3EAD00DB1700 /* KMDevicesAndUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDevicesAndUI.h; sourceTree = "<group>"; };
+		1C6BF2141DBC413500DB1700 /* UIViewController+Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Table.h"; sourceTree = "<group>"; };
+		1C6BF2151DBC413500DB1700 /* UIViewController+Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Table.m"; sourceTree = "<group>"; };
+		2AF18399437AE6B2DC7F361C /* libPods-moreStrictMVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moreStrictMVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4759FD95BE8166BD9AE98D /* Pods-moreStrictMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moreStrictMVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moreStrictMVC/Pods-moreStrictMVC.debug.xcconfig"; sourceTree = "<group>"; };
+		A4D0DA5C595757F1FA54604C /* Pods-moreStrictMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moreStrictMVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-moreStrictMVC/Pods-moreStrictMVC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D642D3ECEF833A9D8F271951 /* libPods-moreStrictMVC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +112,8 @@
 				1C6BF1D31DBC322B00DB1700 /* moreStrictMVCTests */,
 				1C6BF1DE1DBC322B00DB1700 /* moreStrictMVCUITests */,
 				1C6BF1B81DBC322B00DB1700 /* Products */,
+				ECCF7C4249C00199494B829E /* Pods */,
+				2EE2D3A498B6E26B10281FEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +130,8 @@
 		1C6BF1B91DBC322B00DB1700 /* moreStrictMVC */ = {
 			isa = PBXGroup;
 			children = (
+				1C6BF1F11DBC388200DB1700 /* Common */,
+				1C6BF1ED1DBC35B300DB1700 /* Demo */,
 				1C6BF1BD1DBC322B00DB1700 /* AppDelegate.h */,
 				1C6BF1BE1DBC322B00DB1700 /* AppDelegate.m */,
 				1C6BF1C61DBC322B00DB1700 /* Assets.xcassets */,
@@ -132,6 +168,87 @@
 			path = moreStrictMVCUITests;
 			sourceTree = "<group>";
 		};
+		1C6BF1ED1DBC35B300DB1700 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF1EE1DBC35C300DB1700 /* KMDemoVC.h */,
+				1C6BF1EF1DBC35C300DB1700 /* KMDemoVC.m */,
+				1C6BF20E1DBC3B7700DB1700 /* Models */,
+				1C6BF1FD1DBC39CF00DB1700 /* Views */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		1C6BF1F11DBC388200DB1700 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF2121DBC3EAD00DB1700 /* Defines */,
+				1C6BF1F21DBC389700DB1700 /* Base */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1C6BF1F21DBC389700DB1700 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF1F61DBC38E300DB1700 /* KMBaseVC.h */,
+				1C6BF1F71DBC38E300DB1700 /* KMBaseVC.m */,
+				1C6BF1F31DBC38E300DB1700 /* KMBaseTableView.h */,
+				1C6BF1F41DBC38E300DB1700 /* KMBaseTableView.m */,
+				1C6BF1F51DBC38E300DB1700 /* KMBaseTableViewDelegate.h */,
+				1C6BF2141DBC413500DB1700 /* UIViewController+Table.h */,
+				1C6BF2151DBC413500DB1700 /* UIViewController+Table.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1C6BF1FD1DBC39CF00DB1700 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF1FE1DBC39ED00DB1700 /* KMDemoTable.h */,
+				1C6BF1FF1DBC39ED00DB1700 /* KMDemoTable.m */,
+				1C6BF2071DBC3A4E00DB1700 /* KMDemoCell.h */,
+				1C6BF2081DBC3A4E00DB1700 /* KMDemoCell.m */,
+				1C6BF2091DBC3A4E00DB1700 /* KMDemoCell.xib */,
+				1C6BF20C1DBC3B1A00DB1700 /* demo.plist */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C6BF20E1DBC3B7700DB1700 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF20F1DBC3B8C00DB1700 /* KMDemoModel.h */,
+				1C6BF2101DBC3B8C00DB1700 /* KMDemoModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C6BF2121DBC3EAD00DB1700 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				1C6BF2131DBC3EAD00DB1700 /* KMDevicesAndUI.h */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		2EE2D3A498B6E26B10281FEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AF18399437AE6B2DC7F361C /* libPods-moreStrictMVC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECCF7C4249C00199494B829E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A4759FD95BE8166BD9AE98D /* Pods-moreStrictMVC.debug.xcconfig */,
+				A4D0DA5C595757F1FA54604C /* Pods-moreStrictMVC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C6BF1E41DBC322B00DB1700 /* Build configuration list for PBXNativeTarget "moreStrictMVC" */;
 			buildPhases = (
+				4AABD56C11743AD353B3CC44 /* [CP] Check Pods Manifest.lock */,
 				1C6BF1B31DBC322B00DB1700 /* Sources */,
 				1C6BF1B41DBC322B00DB1700 /* Frameworks */,
 				1C6BF1B51DBC322B00DB1700 /* Resources */,
+				1DFB9FC2CF63FACB24231C8F /* [CP] Embed Pods Frameworks */,
+				98CA90A9823347B41A47A7FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,7 +362,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C6BF1CA1DBC322B00DB1700 /* LaunchScreen.storyboard in Resources */,
+				1C6BF20D1DBC3B1A00DB1700 /* demo.plist in Resources */,
 				1C6BF1C71DBC322B00DB1700 /* Assets.xcassets in Resources */,
+				1C6BF20B1DBC3A4E00DB1700 /* KMDemoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,13 +384,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DFB9FC2CF63FACB24231C8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moreStrictMVC/Pods-moreStrictMVC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AABD56C11743AD353B3CC44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98CA90A9823347B41A47A7FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moreStrictMVC/Pods-moreStrictMVC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C6BF1B31DBC322B00DB1700 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C6BF1F91DBC38E300DB1700 /* KMBaseVC.m in Sources */,
+				1C6BF1F01DBC35C300DB1700 /* KMDemoVC.m in Sources */,
 				1C6BF1BF1DBC322B00DB1700 /* AppDelegate.m in Sources */,
+				1C6BF1F81DBC38E300DB1700 /* KMBaseTableView.m in Sources */,
+				1C6BF2161DBC413500DB1700 /* UIViewController+Table.m in Sources */,
 				1C6BF1BC1DBC322B00DB1700 /* main.m in Sources */,
+				1C6BF2001DBC39ED00DB1700 /* KMDemoTable.m in Sources */,
+				1C6BF2111DBC3B8C00DB1700 /* KMDemoModel.m in Sources */,
+				1C6BF20A1DBC3A4E00DB1700 /* KMDemoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +582,7 @@
 		};
 		1C6BF1E51DBC322B00DB1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4759FD95BE8166BD9AE98D /* Pods-moreStrictMVC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z8LXWX6V5D;
@@ -418,6 +596,7 @@
 		};
 		1C6BF1E61DBC322B00DB1700 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4D0DA5C595757F1FA54604C /* Pods-moreStrictMVC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z8LXWX6V5D;
@@ -498,6 +677,7 @@
 				1C6BF1E61DBC322B00DB1700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C6BF1E71DBC322B00DB1700 /* Build configuration list for PBXNativeTarget "moreStrictMVCTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +686,7 @@
 				1C6BF1E91DBC322B00DB1700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C6BF1EA1DBC322B00DB1700 /* Build configuration list for PBXNativeTarget "moreStrictMVCUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +695,7 @@
 				1C6BF1EC1DBC322B00DB1700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
