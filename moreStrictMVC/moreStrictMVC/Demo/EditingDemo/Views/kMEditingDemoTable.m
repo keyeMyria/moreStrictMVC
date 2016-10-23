@@ -18,9 +18,6 @@ static NSString *const iden4EidtingDemoCell = @"iden4EidtingDemoCell";
 - (instancetype)initWithFrame:(CGRect)frame style:(UITableViewStyle)style {
     self = [super initWithFrame:frame style:style];
     if (self) {
-    
-        
-        [self registerNib:[UINib nibWithNibName:NSStringFromClass([kMEditingDemoCell class]) bundle:nil] forCellReuseIdentifier:iden4EidtingDemoCell];
         
     }
     return self;
@@ -30,7 +27,9 @@ static NSString *const iden4EidtingDemoCell = @"iden4EidtingDemoCell";
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     kMEditingDemoCell *cell = [tableView dequeueReusableCellWithIdentifier:iden4EidtingDemoCell];
-    
+    if (nil == cell) {
+        cell = [[kMEditingDemoCell alloc] initWithStyle:(UITableViewCellStyleSubtitle) reuseIdentifier:iden4EidtingDemoCell];
+    }
     KMPersonModel *pmodel = self.tableData[indexPath.row];
     
     cell.personModel = pmodel;
