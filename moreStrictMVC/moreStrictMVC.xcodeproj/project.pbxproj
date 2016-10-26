@@ -13,26 +13,26 @@
 		1C6BF1CA1DBC322B00DB1700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BF1C81DBC322B00DB1700 /* LaunchScreen.storyboard */; };
 		1C6BF1D51DBC322B00DB1700 /* moreStrictMVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1D41DBC322B00DB1700 /* moreStrictMVCTests.m */; };
 		1C6BF1E01DBC322B00DB1700 /* moreStrictMVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1DF1DBC322B00DB1700 /* moreStrictMVCUITests.m */; };
-		1C6BF1F01DBC35C300DB1700 /* KMDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1EF1DBC35C300DB1700 /* KMDemoVC.m */; };
 		1C6BF1F81DBC38E300DB1700 /* KMBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1F41DBC38E300DB1700 /* KMBaseTableView.m */; };
 		1C6BF1F91DBC38E300DB1700 /* KMBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1F71DBC38E300DB1700 /* KMBaseVC.m */; };
-		1C6BF2001DBC39ED00DB1700 /* KMDemoTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF1FF1DBC39ED00DB1700 /* KMDemoTable.m */; };
-		1C6BF20A1DBC3A4E00DB1700 /* KMDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF2081DBC3A4E00DB1700 /* KMDemoCell.m */; };
-		1C6BF20B1DBC3A4E00DB1700 /* KMDemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BF2091DBC3A4E00DB1700 /* KMDemoCell.xib */; };
-		1C6BF20D1DBC3B1A00DB1700 /* demo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BF20C1DBC3B1A00DB1700 /* demo.plist */; };
-		1C6BF2111DBC3B8C00DB1700 /* KMDemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF2101DBC3B8C00DB1700 /* KMDemoModel.m */; };
 		1C6BF2161DBC413500DB1700 /* UIViewController+Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF2151DBC413500DB1700 /* UIViewController+Table.m */; };
-		1C6BF21B1DBC4C9F00DB1700 /* KMOSDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF21A1DBC4C9F00DB1700 /* KMOSDemoVC.m */; };
 		1C6BF2231DBC4F5500DB1700 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BF2251DBC4F5500DB1700 /* InfoPlist.strings */; };
 		1C6BF22B1DBC501800DB1700 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BF22D1DBC501800DB1700 /* Localizable.strings */; };
-		1C6BF2351DBC55BC00DB1700 /* KMOSDemoTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF2341DBC55BC00DB1700 /* KMOSDemoTable.m */; };
-		1C6BF2381DBC560400DB1700 /* KMOSInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF2371DBC560400DB1700 /* KMOSInfoModel.m */; };
-		1C6BF23C1DBC570700DB1700 /* KMOSDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF23A1DBC570700DB1700 /* KMOSDemoCell.m */; };
-		1C6BF23D1DBC570700DB1700 /* KMOSDemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BF23B1DBC570700DB1700 /* KMOSDemoCell.xib */; };
-		1C6BF2561DBC678100DB1700 /* KMEditingDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF2551DBC678100DB1700 /* KMEditingDemo.m */; };
-		1C6BF25B1DBC69B800DB1700 /* KMPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF25A1DBC69B800DB1700 /* KMPersonModel.m */; };
-		1C6BF25E1DBC69EE00DB1700 /* kMEditingDemoTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF25D1DBC69EE00DB1700 /* kMEditingDemoTable.m */; };
-		1C6BF2651DBC6B1000DB1700 /* kMEditingDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF2631DBC6B1000DB1700 /* kMEditingDemoCell.m */; };
+		1CD1AF2A1DC0CE1E00F2A4A5 /* KMEditingDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD1AF091DC0CE1E00F2A4A5 /* KMEditingDemo.m */; };
+		1CD1AF2B1DC0CE1E00F2A4A5 /* KMPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD1AF0C1DC0CE1E00F2A4A5 /* KMPersonModel.m */; };
+		1CD1AF2C1DC0CE1E00F2A4A5 /* kMEditingDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD1AF0F1DC0CE1E00F2A4A5 /* kMEditingDemoCell.m */; };
+		1CD1AF2D1DC0CE1E00F2A4A5 /* kMEditingDemoTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD1AF111DC0CE1E00F2A4A5 /* kMEditingDemoTable.m */; };
+		1CD1AF2E1DC0CE1E00F2A4A5 /* KMDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD1AF131DC0CE1E00F2A4A5 /* KMDemoVC.m */; };
+		1CD1AF2F1DC0CE1E00F2A4A5 /* KMDemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD1AF161DC0CE1E00F2A4A5 /* KMDemoModel.m */; };
+		1CD1AF301DC0CE1E00F2A4A5 /* KMOSDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD1AF191DC0CE1E00F2A4A5 /* KMOSDemoVC.m */; };
+		1CD1AF311DC0CE1E00F2A4A5 /* KMOSInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD1AF1C1DC0CE1E00F2A4A5 /* KMOSInfoModel.m */; };
+		1CD1AF321DC0CE1E00F2A4A5 /* KMOSDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD1AF1F1DC0CE1E00F2A4A5 /* KMOSDemoCell.m */; };
+		1CD1AF331DC0CE1E00F2A4A5 /* KMOSDemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CD1AF201DC0CE1E00F2A4A5 /* KMOSDemoCell.xib */; };
+		1CD1AF341DC0CE1E00F2A4A5 /* KMOSDemoTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD1AF221DC0CE1E00F2A4A5 /* KMOSDemoTable.m */; };
+		1CD1AF351DC0CE1E00F2A4A5 /* demo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CD1AF241DC0CE1E00F2A4A5 /* demo.plist */; };
+		1CD1AF361DC0CE1E00F2A4A5 /* KMDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD1AF261DC0CE1E00F2A4A5 /* KMDemoCell.m */; };
+		1CD1AF371DC0CE1E00F2A4A5 /* KMDemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CD1AF271DC0CE1E00F2A4A5 /* KMDemoCell.xib */; };
+		1CD1AF381DC0CE1E00F2A4A5 /* KMDemoTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD1AF291DC0CE1E00F2A4A5 /* KMDemoTable.m */; };
 		D642D3ECEF833A9D8F271951 /* libPods-moreStrictMVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF18399437AE6B2DC7F361C /* libPods-moreStrictMVC.a */; };
 /* End PBXBuildFile section */
 
@@ -67,27 +67,15 @@
 		1C6BF1DB1DBC322B00DB1700 /* moreStrictMVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moreStrictMVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6BF1DF1DBC322B00DB1700 /* moreStrictMVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moreStrictMVCUITests.m; sourceTree = "<group>"; };
 		1C6BF1E11DBC322B00DB1700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C6BF1EE1DBC35C300DB1700 /* KMDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDemoVC.h; sourceTree = "<group>"; };
-		1C6BF1EF1DBC35C300DB1700 /* KMDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDemoVC.m; sourceTree = "<group>"; };
 		1C6BF1F31DBC38E300DB1700 /* KMBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMBaseTableView.h; sourceTree = "<group>"; };
 		1C6BF1F41DBC38E300DB1700 /* KMBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMBaseTableView.m; sourceTree = "<group>"; };
 		1C6BF1F51DBC38E300DB1700 /* KMBaseTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMBaseTableViewDelegate.h; sourceTree = "<group>"; };
 		1C6BF1F61DBC38E300DB1700 /* KMBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMBaseVC.h; sourceTree = "<group>"; };
 		1C6BF1F71DBC38E300DB1700 /* KMBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMBaseVC.m; sourceTree = "<group>"; };
-		1C6BF1FE1DBC39ED00DB1700 /* KMDemoTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDemoTable.h; sourceTree = "<group>"; };
-		1C6BF1FF1DBC39ED00DB1700 /* KMDemoTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDemoTable.m; sourceTree = "<group>"; };
-		1C6BF2071DBC3A4E00DB1700 /* KMDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDemoCell.h; sourceTree = "<group>"; };
-		1C6BF2081DBC3A4E00DB1700 /* KMDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDemoCell.m; sourceTree = "<group>"; };
-		1C6BF2091DBC3A4E00DB1700 /* KMDemoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMDemoCell.xib; sourceTree = "<group>"; };
-		1C6BF20C1DBC3B1A00DB1700 /* demo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = demo.plist; sourceTree = "<group>"; };
-		1C6BF20F1DBC3B8C00DB1700 /* KMDemoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDemoModel.h; sourceTree = "<group>"; };
-		1C6BF2101DBC3B8C00DB1700 /* KMDemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDemoModel.m; sourceTree = "<group>"; };
 		1C6BF2131DBC3EAD00DB1700 /* KMDevicesAndUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDevicesAndUI.h; sourceTree = "<group>"; };
 		1C6BF2141DBC413500DB1700 /* UIViewController+Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Table.h"; sourceTree = "<group>"; };
 		1C6BF2151DBC413500DB1700 /* UIViewController+Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Table.m"; sourceTree = "<group>"; };
 		1C6BF2171DBC4BC200DB1700 /* OSCAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCAPI.h; sourceTree = "<group>"; };
-		1C6BF2191DBC4C9F00DB1700 /* KMOSDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMOSDemoVC.h; sourceTree = "<group>"; };
-		1C6BF21A1DBC4C9F00DB1700 /* KMOSDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMOSDemoVC.m; sourceTree = "<group>"; };
 		1C6BF21F1DBC4ED300DB1700 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		1C6BF2201DBC4EDC00DB1700 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		1C6BF2241DBC4F5500DB1700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -100,21 +88,33 @@
 		1C6BF2301DBC501C00DB1700 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		1C6BF2311DBC51F200DB1700 /* msmvc-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "msmvc-prefix.pch"; sourceTree = "<group>"; };
 		1C6BF2321DBC523900DB1700 /* KMHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMHeaders.h; sourceTree = "<group>"; };
-		1C6BF2331DBC55BC00DB1700 /* KMOSDemoTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMOSDemoTable.h; sourceTree = "<group>"; };
-		1C6BF2341DBC55BC00DB1700 /* KMOSDemoTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMOSDemoTable.m; sourceTree = "<group>"; };
-		1C6BF2361DBC560400DB1700 /* KMOSInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMOSInfoModel.h; sourceTree = "<group>"; };
-		1C6BF2371DBC560400DB1700 /* KMOSInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMOSInfoModel.m; sourceTree = "<group>"; };
-		1C6BF2391DBC570700DB1700 /* KMOSDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMOSDemoCell.h; sourceTree = "<group>"; };
-		1C6BF23A1DBC570700DB1700 /* KMOSDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMOSDemoCell.m; sourceTree = "<group>"; };
-		1C6BF23B1DBC570700DB1700 /* KMOSDemoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMOSDemoCell.xib; sourceTree = "<group>"; };
-		1C6BF2541DBC678100DB1700 /* KMEditingDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMEditingDemo.h; sourceTree = "<group>"; };
-		1C6BF2551DBC678100DB1700 /* KMEditingDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMEditingDemo.m; sourceTree = "<group>"; };
-		1C6BF2591DBC69B800DB1700 /* KMPersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMPersonModel.h; sourceTree = "<group>"; };
-		1C6BF25A1DBC69B800DB1700 /* KMPersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMPersonModel.m; sourceTree = "<group>"; };
-		1C6BF25C1DBC69EE00DB1700 /* kMEditingDemoTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kMEditingDemoTable.h; sourceTree = "<group>"; };
-		1C6BF25D1DBC69EE00DB1700 /* kMEditingDemoTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kMEditingDemoTable.m; sourceTree = "<group>"; };
-		1C6BF2621DBC6B1000DB1700 /* kMEditingDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kMEditingDemoCell.h; sourceTree = "<group>"; };
-		1C6BF2631DBC6B1000DB1700 /* kMEditingDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kMEditingDemoCell.m; sourceTree = "<group>"; };
+		1CD1AF081DC0CE1E00F2A4A5 /* KMEditingDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMEditingDemo.h; sourceTree = "<group>"; };
+		1CD1AF091DC0CE1E00F2A4A5 /* KMEditingDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMEditingDemo.m; sourceTree = "<group>"; };
+		1CD1AF0B1DC0CE1E00F2A4A5 /* KMPersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMPersonModel.h; sourceTree = "<group>"; };
+		1CD1AF0C1DC0CE1E00F2A4A5 /* KMPersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMPersonModel.m; sourceTree = "<group>"; };
+		1CD1AF0E1DC0CE1E00F2A4A5 /* kMEditingDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kMEditingDemoCell.h; sourceTree = "<group>"; };
+		1CD1AF0F1DC0CE1E00F2A4A5 /* kMEditingDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kMEditingDemoCell.m; sourceTree = "<group>"; };
+		1CD1AF101DC0CE1E00F2A4A5 /* kMEditingDemoTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kMEditingDemoTable.h; sourceTree = "<group>"; };
+		1CD1AF111DC0CE1E00F2A4A5 /* kMEditingDemoTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kMEditingDemoTable.m; sourceTree = "<group>"; };
+		1CD1AF121DC0CE1E00F2A4A5 /* KMDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDemoVC.h; sourceTree = "<group>"; };
+		1CD1AF131DC0CE1E00F2A4A5 /* KMDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDemoVC.m; sourceTree = "<group>"; };
+		1CD1AF151DC0CE1E00F2A4A5 /* KMDemoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDemoModel.h; sourceTree = "<group>"; };
+		1CD1AF161DC0CE1E00F2A4A5 /* KMDemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDemoModel.m; sourceTree = "<group>"; };
+		1CD1AF181DC0CE1E00F2A4A5 /* KMOSDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMOSDemoVC.h; sourceTree = "<group>"; };
+		1CD1AF191DC0CE1E00F2A4A5 /* KMOSDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMOSDemoVC.m; sourceTree = "<group>"; };
+		1CD1AF1B1DC0CE1E00F2A4A5 /* KMOSInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMOSInfoModel.h; sourceTree = "<group>"; };
+		1CD1AF1C1DC0CE1E00F2A4A5 /* KMOSInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMOSInfoModel.m; sourceTree = "<group>"; };
+		1CD1AF1E1DC0CE1E00F2A4A5 /* KMOSDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMOSDemoCell.h; sourceTree = "<group>"; };
+		1CD1AF1F1DC0CE1E00F2A4A5 /* KMOSDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMOSDemoCell.m; sourceTree = "<group>"; };
+		1CD1AF201DC0CE1E00F2A4A5 /* KMOSDemoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMOSDemoCell.xib; sourceTree = "<group>"; };
+		1CD1AF211DC0CE1E00F2A4A5 /* KMOSDemoTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMOSDemoTable.h; sourceTree = "<group>"; };
+		1CD1AF221DC0CE1E00F2A4A5 /* KMOSDemoTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMOSDemoTable.m; sourceTree = "<group>"; };
+		1CD1AF241DC0CE1E00F2A4A5 /* demo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = demo.plist; sourceTree = "<group>"; };
+		1CD1AF251DC0CE1E00F2A4A5 /* KMDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDemoCell.h; sourceTree = "<group>"; };
+		1CD1AF261DC0CE1E00F2A4A5 /* KMDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDemoCell.m; sourceTree = "<group>"; };
+		1CD1AF271DC0CE1E00F2A4A5 /* KMDemoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMDemoCell.xib; sourceTree = "<group>"; };
+		1CD1AF281DC0CE1E00F2A4A5 /* KMDemoTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMDemoTable.h; sourceTree = "<group>"; };
+		1CD1AF291DC0CE1E00F2A4A5 /* KMDemoTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMDemoTable.m; sourceTree = "<group>"; };
 		2AF18399437AE6B2DC7F361C /* libPods-moreStrictMVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moreStrictMVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4759FD95BE8166BD9AE98D /* Pods-moreStrictMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moreStrictMVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moreStrictMVC/Pods-moreStrictMVC.debug.xcconfig"; sourceTree = "<group>"; };
 		A4D0DA5C595757F1FA54604C /* Pods-moreStrictMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moreStrictMVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-moreStrictMVC/Pods-moreStrictMVC.release.xcconfig"; sourceTree = "<group>"; };
@@ -171,8 +171,8 @@
 		1C6BF1B91DBC322B00DB1700 /* moreStrictMVC */ = {
 			isa = PBXGroup;
 			children = (
+				1CD1AF061DC0CE1E00F2A4A5 /* Modules */,
 				1C6BF1F11DBC388200DB1700 /* Common */,
-				1C6BF1ED1DBC35B300DB1700 /* Demo */,
 				1C6BF1BD1DBC322B00DB1700 /* AppDelegate.h */,
 				1C6BF1BE1DBC322B00DB1700 /* AppDelegate.m */,
 				1C6BF1C61DBC322B00DB1700 /* Assets.xcassets */,
@@ -210,19 +210,6 @@
 			path = moreStrictMVCUITests;
 			sourceTree = "<group>";
 		};
-		1C6BF1ED1DBC35B300DB1700 /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				1C6BF2531DBC675E00DB1700 /* EditingDemo */,
-				1C6BF2181DBC4C7F00DB1700 /* OSChina */,
-				1C6BF1EE1DBC35C300DB1700 /* KMDemoVC.h */,
-				1C6BF1EF1DBC35C300DB1700 /* KMDemoVC.m */,
-				1C6BF20E1DBC3B7700DB1700 /* Models */,
-				1C6BF1FD1DBC39CF00DB1700 /* Views */,
-			);
-			path = Demo;
-			sourceTree = "<group>";
-		};
 		1C6BF1F11DBC388200DB1700 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,28 +234,6 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		1C6BF1FD1DBC39CF00DB1700 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				1C6BF1FE1DBC39ED00DB1700 /* KMDemoTable.h */,
-				1C6BF1FF1DBC39ED00DB1700 /* KMDemoTable.m */,
-				1C6BF2071DBC3A4E00DB1700 /* KMDemoCell.h */,
-				1C6BF2081DBC3A4E00DB1700 /* KMDemoCell.m */,
-				1C6BF2091DBC3A4E00DB1700 /* KMDemoCell.xib */,
-				1C6BF20C1DBC3B1A00DB1700 /* demo.plist */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		1C6BF20E1DBC3B7700DB1700 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				1C6BF20F1DBC3B8C00DB1700 /* KMDemoModel.h */,
-				1C6BF2101DBC3B8C00DB1700 /* KMDemoModel.m */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		1C6BF2121DBC3EAD00DB1700 /* Defines */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,38 +242,6 @@
 				1C6BF2321DBC523900DB1700 /* KMHeaders.h */,
 			);
 			path = Defines;
-			sourceTree = "<group>";
-		};
-		1C6BF2181DBC4C7F00DB1700 /* OSChina */ = {
-			isa = PBXGroup;
-			children = (
-				1C6BF2191DBC4C9F00DB1700 /* KMOSDemoVC.h */,
-				1C6BF21A1DBC4C9F00DB1700 /* KMOSDemoVC.m */,
-				1C6BF21C1DBC4CD600DB1700 /* Models */,
-				1C6BF21D1DBC4CD600DB1700 /* Views */,
-			);
-			path = OSChina;
-			sourceTree = "<group>";
-		};
-		1C6BF21C1DBC4CD600DB1700 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				1C6BF2361DBC560400DB1700 /* KMOSInfoModel.h */,
-				1C6BF2371DBC560400DB1700 /* KMOSInfoModel.m */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		1C6BF21D1DBC4CD600DB1700 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				1C6BF2331DBC55BC00DB1700 /* KMOSDemoTable.h */,
-				1C6BF2341DBC55BC00DB1700 /* KMOSDemoTable.m */,
-				1C6BF2391DBC570700DB1700 /* KMOSDemoCell.h */,
-				1C6BF23A1DBC570700DB1700 /* KMOSDemoCell.m */,
-				1C6BF23B1DBC570700DB1700 /* KMOSDemoCell.xib */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		1C6BF21E1DBC4D9200DB1700 /* I18n */ = {
@@ -320,33 +253,100 @@
 			path = I18n;
 			sourceTree = "<group>";
 		};
-		1C6BF2531DBC675E00DB1700 /* EditingDemo */ = {
+		1CD1AF061DC0CE1E00F2A4A5 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				1C6BF2541DBC678100DB1700 /* KMEditingDemo.h */,
-				1C6BF2551DBC678100DB1700 /* KMEditingDemo.m */,
-				1C6BF2571DBC698700DB1700 /* Models */,
-				1C6BF2581DBC698700DB1700 /* Views */,
+				1CD1AF071DC0CE1E00F2A4A5 /* EditingDemo */,
+				1CD1AF121DC0CE1E00F2A4A5 /* KMDemoVC.h */,
+				1CD1AF131DC0CE1E00F2A4A5 /* KMDemoVC.m */,
+				1CD1AF141DC0CE1E00F2A4A5 /* Models */,
+				1CD1AF171DC0CE1E00F2A4A5 /* OSChina */,
+				1CD1AF231DC0CE1E00F2A4A5 /* Views */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1CD1AF071DC0CE1E00F2A4A5 /* EditingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1CD1AF081DC0CE1E00F2A4A5 /* KMEditingDemo.h */,
+				1CD1AF091DC0CE1E00F2A4A5 /* KMEditingDemo.m */,
+				1CD1AF0A1DC0CE1E00F2A4A5 /* Models */,
+				1CD1AF0D1DC0CE1E00F2A4A5 /* Views */,
 			);
 			path = EditingDemo;
 			sourceTree = "<group>";
 		};
-		1C6BF2571DBC698700DB1700 /* Models */ = {
+		1CD1AF0A1DC0CE1E00F2A4A5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1C6BF2591DBC69B800DB1700 /* KMPersonModel.h */,
-				1C6BF25A1DBC69B800DB1700 /* KMPersonModel.m */,
+				1CD1AF0B1DC0CE1E00F2A4A5 /* KMPersonModel.h */,
+				1CD1AF0C1DC0CE1E00F2A4A5 /* KMPersonModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		1C6BF2581DBC698700DB1700 /* Views */ = {
+		1CD1AF0D1DC0CE1E00F2A4A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1C6BF25C1DBC69EE00DB1700 /* kMEditingDemoTable.h */,
-				1C6BF25D1DBC69EE00DB1700 /* kMEditingDemoTable.m */,
-				1C6BF2621DBC6B1000DB1700 /* kMEditingDemoCell.h */,
-				1C6BF2631DBC6B1000DB1700 /* kMEditingDemoCell.m */,
+				1CD1AF0E1DC0CE1E00F2A4A5 /* kMEditingDemoCell.h */,
+				1CD1AF0F1DC0CE1E00F2A4A5 /* kMEditingDemoCell.m */,
+				1CD1AF101DC0CE1E00F2A4A5 /* kMEditingDemoTable.h */,
+				1CD1AF111DC0CE1E00F2A4A5 /* kMEditingDemoTable.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1CD1AF141DC0CE1E00F2A4A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1CD1AF151DC0CE1E00F2A4A5 /* KMDemoModel.h */,
+				1CD1AF161DC0CE1E00F2A4A5 /* KMDemoModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1CD1AF171DC0CE1E00F2A4A5 /* OSChina */ = {
+			isa = PBXGroup;
+			children = (
+				1CD1AF181DC0CE1E00F2A4A5 /* KMOSDemoVC.h */,
+				1CD1AF191DC0CE1E00F2A4A5 /* KMOSDemoVC.m */,
+				1CD1AF1A1DC0CE1E00F2A4A5 /* Models */,
+				1CD1AF1D1DC0CE1E00F2A4A5 /* Views */,
+			);
+			path = OSChina;
+			sourceTree = "<group>";
+		};
+		1CD1AF1A1DC0CE1E00F2A4A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1CD1AF1B1DC0CE1E00F2A4A5 /* KMOSInfoModel.h */,
+				1CD1AF1C1DC0CE1E00F2A4A5 /* KMOSInfoModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1CD1AF1D1DC0CE1E00F2A4A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1CD1AF1E1DC0CE1E00F2A4A5 /* KMOSDemoCell.h */,
+				1CD1AF1F1DC0CE1E00F2A4A5 /* KMOSDemoCell.m */,
+				1CD1AF201DC0CE1E00F2A4A5 /* KMOSDemoCell.xib */,
+				1CD1AF211DC0CE1E00F2A4A5 /* KMOSDemoTable.h */,
+				1CD1AF221DC0CE1E00F2A4A5 /* KMOSDemoTable.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1CD1AF231DC0CE1E00F2A4A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1CD1AF241DC0CE1E00F2A4A5 /* demo.plist */,
+				1CD1AF251DC0CE1E00F2A4A5 /* KMDemoCell.h */,
+				1CD1AF261DC0CE1E00F2A4A5 /* KMDemoCell.m */,
+				1CD1AF271DC0CE1E00F2A4A5 /* KMDemoCell.xib */,
+				1CD1AF281DC0CE1E00F2A4A5 /* KMDemoTable.h */,
+				1CD1AF291DC0CE1E00F2A4A5 /* KMDemoTable.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -482,12 +482,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C6BF23D1DBC570700DB1700 /* KMOSDemoCell.xib in Resources */,
 				1C6BF1CA1DBC322B00DB1700 /* LaunchScreen.storyboard in Resources */,
+				1CD1AF371DC0CE1E00F2A4A5 /* KMDemoCell.xib in Resources */,
+				1CD1AF351DC0CE1E00F2A4A5 /* demo.plist in Resources */,
+				1CD1AF331DC0CE1E00F2A4A5 /* KMOSDemoCell.xib in Resources */,
 				1C6BF22B1DBC501800DB1700 /* Localizable.strings in Resources */,
-				1C6BF20D1DBC3B1A00DB1700 /* demo.plist in Resources */,
 				1C6BF1C71DBC322B00DB1700 /* Assets.xcassets in Resources */,
-				1C6BF20B1DBC3A4E00DB1700 /* KMDemoCell.xib in Resources */,
 				1C6BF2231DBC4F5500DB1700 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -561,23 +561,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C6BF2651DBC6B1000DB1700 /* kMEditingDemoCell.m in Sources */,
-				1C6BF23C1DBC570700DB1700 /* KMOSDemoCell.m in Sources */,
-				1C6BF2561DBC678100DB1700 /* KMEditingDemo.m in Sources */,
+				1CD1AF311DC0CE1E00F2A4A5 /* KMOSInfoModel.m in Sources */,
+				1CD1AF2F1DC0CE1E00F2A4A5 /* KMDemoModel.m in Sources */,
 				1C6BF1F91DBC38E300DB1700 /* KMBaseVC.m in Sources */,
-				1C6BF2381DBC560400DB1700 /* KMOSInfoModel.m in Sources */,
-				1C6BF25B1DBC69B800DB1700 /* KMPersonModel.m in Sources */,
-				1C6BF1F01DBC35C300DB1700 /* KMDemoVC.m in Sources */,
 				1C6BF1BF1DBC322B00DB1700 /* AppDelegate.m in Sources */,
+				1CD1AF361DC0CE1E00F2A4A5 /* KMDemoCell.m in Sources */,
 				1C6BF1F81DBC38E300DB1700 /* KMBaseTableView.m in Sources */,
-				1C6BF25E1DBC69EE00DB1700 /* kMEditingDemoTable.m in Sources */,
+				1CD1AF381DC0CE1E00F2A4A5 /* KMDemoTable.m in Sources */,
+				1CD1AF2D1DC0CE1E00F2A4A5 /* kMEditingDemoTable.m in Sources */,
+				1CD1AF341DC0CE1E00F2A4A5 /* KMOSDemoTable.m in Sources */,
 				1C6BF2161DBC413500DB1700 /* UIViewController+Table.m in Sources */,
-				1C6BF2351DBC55BC00DB1700 /* KMOSDemoTable.m in Sources */,
-				1C6BF21B1DBC4C9F00DB1700 /* KMOSDemoVC.m in Sources */,
+				1CD1AF2E1DC0CE1E00F2A4A5 /* KMDemoVC.m in Sources */,
+				1CD1AF321DC0CE1E00F2A4A5 /* KMOSDemoCell.m in Sources */,
+				1CD1AF301DC0CE1E00F2A4A5 /* KMOSDemoVC.m in Sources */,
 				1C6BF1BC1DBC322B00DB1700 /* main.m in Sources */,
-				1C6BF2001DBC39ED00DB1700 /* KMDemoTable.m in Sources */,
-				1C6BF2111DBC3B8C00DB1700 /* KMDemoModel.m in Sources */,
-				1C6BF20A1DBC3A4E00DB1700 /* KMDemoCell.m in Sources */,
+				1CD1AF2A1DC0CE1E00F2A4A5 /* KMEditingDemo.m in Sources */,
+				1CD1AF2B1DC0CE1E00F2A4A5 /* KMPersonModel.m in Sources */,
+				1CD1AF2C1DC0CE1E00F2A4A5 /* kMEditingDemoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
