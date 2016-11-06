@@ -1,2 +1,2 @@
 # moreStrictMVC
-a more strict iOS mvc design demo.
+A more strict iOS mvc design demo.
